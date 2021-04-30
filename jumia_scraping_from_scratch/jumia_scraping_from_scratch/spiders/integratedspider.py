@@ -1,5 +1,6 @@
 import scrapy
 from scrapy_selenium import SeleniumRequest
+import re
 
 class IntegratedspiderSpider(scrapy.Spider):
     name = 'integratedspider'
@@ -16,8 +17,8 @@ class IntegratedspiderSpider(scrapy.Spider):
         restaurants = response.xpath('//*[@id="restaurant-list"]/section[2]/div/div/article')
         for restaurant in restaurants:
             name = restaurant.xpath('.//a/section/div[1]/h3/text()').get()
-            url = restaurant.xpath('.//a/@href').get()
-            rating = restaurant.xpath('.//a/section/div[2]/span[1]/text()').get()
+            url = "https://food.jumia.dz"+restaurant.xpath('.//a/@href').get()
+            rating = re.findall(r'[0-9\.]+', restaurant.xpath('.//a/section/div[2]/span[1]/text()').get())[0]
 
             yield {
                     'name':name, 

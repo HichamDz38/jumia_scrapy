@@ -1,0 +1,575 @@
+PS E:\prodjet\Works\jobs_test\invisible\jumia_scraping_from_scratch> scrapy crawl integratedspider
+2021-04-30 14:56:43 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: jumia_scraping_from_scratch)
+2021-04-30 14:56:43 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, 
+w3lib 1.22.0, Twisted 21.2.0, Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Windows-10-10.0.18362-SP0
+2021-04-30 14:56:43 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-04-30 14:56:43 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jumia_scraping_from_scratch',
+ 'NEWSPIDER_MODULE': 'jumia_scraping_from_scratch.spiders',
+ 'SPIDER_MODULES': ['jumia_scraping_from_scratch.spiders'],
+ 'USER_AGENT': 'jumia_scraping_from_scratch (+http://www.yourdomain.com)'}
+2021-04-30 14:56:43 [scrapy.extensions.telnet] INFO: Telnet Password: f5b37c6abadfd973
+2021-04-30 14:56:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-04-30 14:56:44 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:63797/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+2021-04-30 14:56:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 127.0.0.1:63797
+
+DevTools listening on ws://127.0.0.1:63803/devtools/browser/1eda8ce5-a159-473d-a3f8-9f89cf099cbe
+2021-04-30 14:56:44 [urllib3.connectionpool] DEBUG: http://127.0.0.1:63797 "POST /session HTTP/1.1" 200 753
+2021-04-30 14:56:44 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-04-30 14:56:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy_selenium.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-04-30 14:56:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-04-30 14:56:44 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2021-04-30 14:56:44 [scrapy.core.engine] INFO: Spider opened
+2021-04-30 14:56:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-04-30 14:56:44 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-04-30 14:56:44 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:63797/session/dcbc7eeada7401c0dd0423d2d4066720/url {"url": "https://food.jumia.dz/restaurants"}
+[0430/145658.776:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0430/145718.011:ERROR:ssl_client_socket_impl.cc(947)] handshake failed; returned -1, SSL error code 1, net_error -101
+2021-04-30 14:57:18 [urllib3.connectionpool] DEBUG: http://127.0.0.1:63797 "POST /session/dcbc7eeada7401c0dd0423d2d4066720/url HTTP/1.1" 200 14
+2021-04-30 14:57:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-04-30 14:57:18 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:63797/session/dcbc7eeada7401c0dd0423d2d4066720/screenshot {}
+2021-04-30 14:57:18 [urllib3.connectionpool] DEBUG: http://127.0.0.1:63797 "GET /session/dcbc7eeada7401c0dd0423d2d4066720/screenshot HTTP/1.1" 200 257860
+2021-04-30 14:57:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-04-30 14:57:18 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:63797/session/dcbc7eeada7401c0dd0423d2d4066720/source {}
+2021-04-30 14:57:18 [urllib3.connectionpool] DEBUG: http://127.0.0.1:63797 "GET /session/dcbc7eeada7401c0dd0423d2d4066720/source HTTP/1.1" 200 319539
+2021-04-30 14:57:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-04-30 14:57:18 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:63797/session/dcbc7eeada7401c0dd0423d2d4066720/url {}
+2021-04-30 14:57:18 [urllib3.connectionpool] DEBUG: http://127.0.0.1:63797 "GET /session/dcbc7eeada7401c0dd0423d2d4066720/url HTTP/1.1" 200 45
+2021-04-30 14:57:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-04-30 14:57:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://food.jumia.dz/restaurants> (referer: None)
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'A 2 pas superette', 'URL': '/restaurant/a3cx/a-2-pas-superette', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "O'Tacos", 'URL': '/restaurant/a6bo/otacos', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Marguerite', 'URL': '/restaurant/a4mv/la-marguerite', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Baraque à Tacos', 'URL': '/restaurant/a1gq/la-baraque-a-tacos', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Mega pizza', 'URL': '/restaurant/a5ru/mega-pizza', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Mini Market', 'URL': '/restaurant/a7yj/cheraga-dar-diaf', 'RATING': '2.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Superette Kheyar kouba', 'URL': '/restaurant/a9kx/superette-kheyar', 'RATING': '5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Seven superette', 'URL': '/restaurant/a5ns/seven-superette', 'RATING': '4.8\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Casse Croute Saïd Hamdine', 'URL': '/restaurant/a8xi/casse-croute-said-hamdine', 'RATING': '4\xa0•'}     
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Mâkel', 'URL': '/restaurant/a7uu/makel', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizza Happy', 'URL': '/restaurant/a5cm/happy-pizza', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Select', 'URL': '/restaurant/a6rh/select', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Select Restaurant', 'URL': '/restaurant/a9pw/select-restaurant', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Lo Bueno', 'URL': '/restaurant/a2fc/lo-bueno', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Que Aproveche', 'URL': '/restaurant/a6gg/que-aproveche', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Woodpecker Barthes', 'URL': '/restaurant/a1jo/woodpecker-barthes', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'قفة رمضان', 'URL': '/restaurant/a6oi/koffat-ramdane', 'RATING': '2.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Jumia Food Test Restaurant 3', 'URL': '/restaurant/a9ws/jumia-food-test-restaurant-3', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Spuntino- Cuisine Tunisenne', 'URL': '/restaurant/a3dn/spuntino-cuisine-tunisenne', 'RATING': '4\xa0•'}  
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Sushi Ball', 'URL': '/restaurant/a7lg/sushi-ball', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Fast Pasta', 'URL': '/restaurant/a1lt/fast-pasta', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizza Hut', 'URL': '/restaurant/a3mt/pizza-hut-vendor', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizza Hut', 'URL': '/restaurant/a3zw/pizza-hut-sidi-yahia', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Tacos Gratinados', 'URL': '/restaurant/a7ls/tacos-gratinados', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Taj Mahal Ben Aknoun', 'URL': '/restaurant/a7de/taj-mahal-ben-aknoun', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Crispy Burger', 'URL': '/restaurant/a3co/crispy-burger', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Taj Mahal Cheraga', 'URL': '/restaurant/a0cp/taj-mahal-cheraga', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizza Time Sidi Yahia', 'URL': '/restaurant/a9rx/pizza-time', 'RATING': '4.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Lookers Restaurant & Snack', 'URL': '/restaurant/a9yi/lookers-restaurant', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Casbah Istanbul', 'URL': '/restaurant/a9gn/casbah-istanbul-ben-aknoun', 'RATING': '4.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Crêperie Poffertjes', 'URL': '/restaurant/a8xs/creperie-poffertjes', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Maharaja', 'URL': '/restaurant/a1wu/maharaja', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Casbah Istanbul', 'URL': '/restaurant/a1ne/casbah-istanbul-bab-ezzouar', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Val Street', 'URL': '/restaurant/a2ca/val-street', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Backstreet', 'URL': '/restaurant/a4nf/backstreet', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Strelitzia', 'URL': '/restaurant/a7fe/strelitzia', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Beef Burger', 'URL': '/restaurant/a1wn/beef-burger', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Lookers Coffee', 'URL': '/restaurant/a8ku/lookers-coffee', 'RATING': '4.8\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Maharaja', 'URL': '/restaurant/a7pi/maharaja-vendor-1', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'American Diner', 'URL': '/restaurant/a4nh/american-diner', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Patisserie by Lucas Castello- Dely Ibrahim', 'URL': '/restaurant/a5ge/la-patisserie-by-lucas-castello-dely-ibrahim', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Bubble Waffle', 'URL': '/restaurant/a7wk/bubble-waffle', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Plancha', 'URL': '/restaurant/a0qh/la-plancha', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Belle Époque', 'URL': '/restaurant/a4wq/la-belle-epoque', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Bucheron', 'URL': '/restaurant/a6iv/le-bucheron', 'RATING': '4.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Palmeraie', 'URL': '/restaurant/a2qh/la-palmeraie', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Miam's Pizza", 'URL': '/restaurant/a7cz/miam-s-pizza', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Strelitzia Hydra', 'URL': '/restaurant/a7jr/strelitzia-hydra', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Sultan', 'URL': '/restaurant/a1bc/sultan', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Salta3 Burger', 'URL': '/restaurant/a1cl/salta3-burger', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Abracadabra Kebab Chéraga', 'URL': '/restaurant/a3gj/abracadabra-kebab-cheraga', 'RATING': '4.3\xa0•'}   
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "L'Atelier Du Pizzaiolo", 'URL': '/restaurant/a4du/l-atelier-du-pizzaiolo', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Cité Interdite', 'URL': '/restaurant/a2wk/la-cite-interdite', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Mc Cool', 'URL': '/restaurant/a3at/mc-cool-burgers', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Paris'dza", 'URL': '/restaurant/a0xs/paris-dza', 'RATING': '4.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Spicy Chicken', 'URL': '/restaurant/a7jc/spicy-chicken', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Anes Food Family', 'URL': '/restaurant/a9wg/anes-food-family', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Yogorino & Pizza au Feu de Bois', 'URL': '/restaurant/a3ih/yogorino', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Al Forno', 'URL': '/restaurant/a7wj/al-forno-vendor-2', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Maharaja', 'URL': '/restaurant/a3li/maharaja-vendor', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizza Domino', 'URL': '/restaurant/a6wf/pizza-domino', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "So' Tacos", 'URL': '/restaurant/a8oj/so-tacos', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizza Nostra - Pizza Au Feu De Bois', 'URL': '/restaurant/a2mh/pizza-nostra', 'RATING': '4.4\xa0•'}      
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Cédrus Restaurant', 'URL': '/restaurant/a6rb/cedrus-restaurant', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'H&M Boof', 'URL': '/restaurant/a6wo/h-m-boof', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Hollywood Pizza', 'URL': '/restaurant/a7ib/hollywood-pizza', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Castellane Burger', 'URL': '/restaurant/a3xa/castellane-burger', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pâtisserie mille délices', 'URL': '/restaurant/a6ja/patisserie-mille-delices', 'RATING': '5\xa0•'}       
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Tamgout', 'URL': '/restaurant/a1pf/tamgout', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Taste Of India', 'URL': '/restaurant/a6tn/taste-of-india', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Cabane', 'URL': '/restaurant/a9ya/la-cabane', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'KYZ Frais Maison', 'URL': '/restaurant/a6go/kyz-frais-maison', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Cesar Burgers', 'URL': '/restaurant/a6bu/cesar-burgers', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Perla Nera', 'URL': '/restaurant/a5am/la-perla-nera', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Forno Gusto', 'URL': '/restaurant/a0gd/forno-gusto', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Big American Burger', 'URL': '/restaurant/a4js/big-american-burger', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'My Pizza & Sundae', 'URL': '/restaurant/a2by/my-sundae', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'BUTCHER Volcanic D-B', 'URL': '/restaurant/a2iq/butcher-volcanic-d-b', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Gaza Burger', 'URL': '/restaurant/a7be/gaza-burger', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Mama', 'URL': '/restaurant/a9qf/la-mama', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Cantine Dely Brahim', 'URL': '/restaurant/a9jw/la-cantine-dely-brahim', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Docteur Chocolat', 'URL': '/restaurant/a3jm/docteur-chocolat', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Petit Vendôme', 'URL': '/restaurant/a1gh/le-petit-vendome', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Woodpecker Draria', 'URL': '/restaurant/a7ea/woodpecker', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Cook's Pizzeria", 'URL': '/restaurant/a3zj/cook-s-pizzeria', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pause Restaurant', 'URL': '/restaurant/a9cj/pause-restaurant', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Kiddy Food', 'URL': '/restaurant/a7tq/kiddy-food', 'RATING': '4.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Green snack', 'URL': '/restaurant/a8ce/green-snack', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Leonard Ben Aknoun', 'URL': '/restaurant/a6gx/leonard-ben-aknoun', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'CCCP', 'URL': '/restaurant/a2aj/cccp', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Woodpecker Barthes Hydra', 'URL': '/restaurant/a0wp/woodpecker-barthes-hydra', 'RATING': '0\xa0•'}       
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Billy's", 'URL': '/restaurant/a0kw/billy-s', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "L'Espéranto", 'URL': '/restaurant/a6fx/l-esperanto', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Burger Station', 'URL': '/restaurant/a1rt/burger-station', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Burger Republic', 'URL': '/restaurant/a3so/burger-republic', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Marhaba Burgers & Sandwichs', 'URL': '/restaurant/a7ri/marhaba-sandwichs', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Elo'Tacos", 'URL': '/restaurant/a2mp/elo-tacos', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Rocket Sandwichs', 'URL': '/restaurant/a0xv/rocket-sandwichs', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Good Vibes', 'URL': '/restaurant/a9pv/good-vibes', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Diwan restaurant', 'URL': '/restaurant/a9cd/diwan-restaurant', 'RATING': '5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizza Point', 'URL': '/restaurant/a0if/pizza-point', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Savannah Pizzas', 'URL': '/restaurant/a8yn/savannah-pizzas', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'B Burger', 'URL': '/restaurant/a1lm/b-burger', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Family Food', 'URL': '/restaurant/a9id/family-food', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Waffleshot', 'URL': '/restaurant/a0qq/waffleshot', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Rostom', 'URL': '/restaurant/a3pp/rostom', 'RATING': '3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Oui Oui Döner Cheraga', 'URL': '/restaurant/a3gz/oui-oui-doner-cheraga', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Laser Food- by Laser Strike', 'URL': '/restaurant/a6co/laser-strike', 'RATING': '3.8\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Wok Street', 'URL': '/restaurant/a3sc/wok-street', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Cité Asiatique', 'URL': '/restaurant/a9en/la-cite-asiatique', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Central Up', 'URL': '/restaurant/a6ed/central-up', 'RATING': '3.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Abracadabra Döner Kebab', 'URL': '/restaurant/a6jb/abracadabra-kabab', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Patisserie by Lucas Castello- Hydra', 'URL': '/restaurant/a3gw/la-patisserie-by-lucas-castello-hydra', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Restaurant Divan', 'URL': '/restaurant/a1iy/restaurant-divan', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Fresh Cook', 'URL': '/restaurant/a1xh/fresh-cook', 'RATING': '2.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'The Grill', 'URL': '/restaurant/a9hy/the-grill', 'RATING': '5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Chic Chic Restaurant', 'URL': '/restaurant/a5ap/chic-chic-restaurant', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "L'Avenue", 'URL': '/restaurant/a2mk/l-avenue', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Cale', 'URL': '/restaurant/a0va/la-cale', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Scottish', 'URL': '/restaurant/a6dh/scottish', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Papadum Indian Food', 'URL': '/restaurant/a9nn/papadum-indian-food-vendor', 'RATING': '4.4\xa0•'}        
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Restaurant Poisson Warsnis', 'URL': '/restaurant/a2hb/restaurant-poisson-warsnis', 'RATING': '4.6\xa0•'} 
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Coq', 'URL': '/restaurant/a1nu/le-coq', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'American Burger', 'URL': '/restaurant/a9sl/american-burger', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Tajine', 'URL': '/restaurant/a4xt/le-tajine', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'White Dream restaurant', 'URL': '/restaurant/a6zk/white-dream-restaurant', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Chicken Chicken', 'URL': '/restaurant/a1hg/chicken-chicken', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Diwan El Bacha', 'URL': '/restaurant/a4lm/diwan-el-bacha', 'RATING': '3.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Lulli's", 'URL': '/restaurant/a6ky/lulli-s', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Cooks Traditionnel', 'URL': '/restaurant/a5vc/cooks-traditionnel', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Hotspot restaurant', 'URL': '/restaurant/a6pr/hotspot-restaurant', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'House Of Burgers', 'URL': '/restaurant/a6iq/house-of-burgers-hydra', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Pizza Time Val d'Hydra", 'URL': '/restaurant/a9hs/pizza-time-val-d-hydra', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Funky Au Feu de Bois', 'URL': '/restaurant/a7hd/funky-au-feu-de-bois', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Tacos World', 'URL': '/restaurant/a5dw/tacos-world', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Arizona', 'URL': '/restaurant/a0qa/arizona', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizza Nostra', 'URL': '/restaurant/a1kk/pizza-nostra-draria', 'RATING': '5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Wood Chicken', 'URL': '/restaurant/a7sg/wood-chicken', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Dziri Grill', 'URL': '/restaurant/a0eg/dziri-grill', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'House Of Burgers', 'URL': '/restaurant/a6ug/house-of-burgers-bab-zouar', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Snappy', 'URL': '/restaurant/a9le/snappy', 'RATING': '3.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Original Tacos', 'URL': '/restaurant/a3qm/original-tacos', 'RATING': '3.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Naan & Tacos', 'URL': '/restaurant/a8dv/naan', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Casa Del Burger', 'URL': '/restaurant/a9bv/la-casa-del-burger', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Fratello's by Pizza Show", 'URL': '/restaurant/a2eh/fratello-s-by-pizza-show', 'RATING': '4\xa0•'}       
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Shakes Burgers & Grill', 'URL': '/restaurant/a2zq/shakes-burgers', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Sultan Express', 'URL': '/restaurant/a0kv/sultan-alger-centre', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Brother Pizza&Tacos', 'URL': '/restaurant/a1vh/brother-ts', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Eaten Out Pizza', 'URL': '/restaurant/a3bx/eaten-out-pizza', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Bocadillos', 'URL': '/restaurant/a1zk/bocadillos', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Rest House', 'URL': '/restaurant/a5no/rest-house', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Tacobab', 'URL': '/restaurant/a3af/taco', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Pizzeria l'Étoile", 'URL': '/restaurant/a4to/pizzeria-l-etoile', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Au Feu de Bois', 'URL': '/restaurant/a8gm/feu-de-bois', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Maison du Tacos', 'URL': '/restaurant/a5rt/la-maison-du-tacos', 'RATING': '4.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Arrabiata', 'URL': '/restaurant/a9sd/arabiata', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Rôtisserie', 'URL': '/restaurant/a4bf/la-rotisserie', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'BUTCHER Volcanic H-Y', 'URL': '/restaurant/a9xk/butcher-volcanic-h-y', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Monde', 'URL': '/restaurant/a3jr/le-monde', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Abracadabra Kebab kouba', 'URL': '/restaurant/a0et/abracadabra-kebab-kouba', 'RATING': '4.1\xa0•'}       
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Salad Box', 'URL': '/restaurant/a0sd/salad-box', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Cooks Restaurant', 'URL': '/restaurant/a1at/cooks-restaurant', 'RATING': '2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Bistrot', 'URL': '/restaurant/a1ea/le-bistrot', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'The Wall', 'URL': '/restaurant/a9on/the-wall', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Casse Croûte Babez', 'URL': '/restaurant/a7lh/casse-croute-babez', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Poppy's", 'URL': '/restaurant/a5ia/poppy-s', 'RATING': '3.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Ali Baba', 'URL': '/restaurant/a8iv/ali-baba-restaurant', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Speed Food', 'URL': '/restaurant/a5ue/speed-food', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Corner by Sultan', 'URL': '/restaurant/a0cc/corner-by-sultan', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Leoncino', 'URL': '/restaurant/a5su/leoncino', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Al Forno', 'URL': '/restaurant/a4xp/al-forno-vendor-1', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizzeria Il Fornello', 'URL': '/restaurant/a0ts/pizzeria-il-fornello', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Tacos+', 'URL': '/restaurant/a1fd/o-tacosplus', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'El Baih', 'URL': '/restaurant/a3ab/el-baih', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Mc Roux', 'URL': '/restaurant/a7mc/mc-roux', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Dawg's", 'URL': '/restaurant/a4za/dawgs', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Rodizio Pizzeria Brésilienne', 'URL': '/restaurant/a5mf/le-rodizio', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'The Joker Food', 'URL': '/restaurant/a6pv/the-joker-fodd', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Maracas', 'URL': '/restaurant/a9np/maracas', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Mandala', 'URL': '/restaurant/a9xa/mandala', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'El Maida', 'URL': '/restaurant/a9bl/el-maida', 'RATING': '3.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Chick'n Beef", 'URL': '/restaurant/a7zj/chick-n-beef', 'RATING': '4.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'California Burger', 'URL': '/restaurant/a6zm/california-burger', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Appolino', 'URL': '/restaurant/a4iv/appolino', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Chapati Tunisien', 'URL': '/restaurant/a1im/chapati-tunisien', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Gâté', 'URL': '/restaurant/a8nn/le-gate', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Dady Pizza', 'URL': '/restaurant/a8fh/dady-pizza', 'RATING': '5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Zahrat Dimachq', 'URL': '/restaurant/a4ny/zahrat-dimachq', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Fren'cheese", 'URL': '/restaurant/a9an/fren-cheese', 'RATING': '4.2\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'The Crossroads', 'URL': '/restaurant/a8ws/the-crossroads', 'RATING': '3.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Dos Dos Pizza & Food', 'URL': '/restaurant/a6al/dos-dos-pizza-food', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Casa Bianca', 'URL': '/restaurant/a6rp/casa-bianca', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Lamassat', 'URL': '/restaurant/a6fv/lamassat', 'RATING': '3.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Classicco', 'URL': '/restaurant/a9xg/classicco', 'RATING': '4.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Tchikos Pizza', 'URL': '/restaurant/a0nc/tchikos-pizza', 'RATING': '3.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Oui Oui Döner Dely Ibrahim', 'URL': '/restaurant/a3wh/oui-oui-doner-dely-ibrahim', 'RATING': '4.2\xa0•'} 
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Walibi', 'URL': '/restaurant/a5ae/walibi', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Tacos Dey', 'URL': '/restaurant/a2ie/tacos-dey', 'RATING': '5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "O'Churros", 'URL': '/restaurant/a8lq/churros', 'RATING': '4.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Snack à Gogo', 'URL': '/restaurant/a3nc/snack-a-gogo-vendor', 'RATING': '3.8\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Brooklyn', 'URL': '/restaurant/a2lj/brooklyn', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Ramo Pizza', 'URL': '/restaurant/a7nf/ramos-pizza', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Leonard City Center', 'URL': '/restaurant/a9qg/leonard-city-center', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Makloub Dely Brahim', 'URL': '/restaurant/a9dh/mekloub-dely-brahim', 'RATING': '4.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Fresh Burger', 'URL': '/restaurant/a0ow/fresh-burger-1', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Mio Mondo', 'URL': '/restaurant/a1gr/mio-mondo', 'RATING': '3.8\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Food Truck', 'URL': '/restaurant/a8qw/food-truck', 'RATING': '3.8\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Grenier', 'URL': '/restaurant/a2om/le-grenier', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Maza snack', 'URL': '/restaurant/a6lc/maza-snack', 'RATING': '4.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Del Tacos', 'URL': '/restaurant/a7nx/del-tacos', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'De Legna Pizzas', 'URL': '/restaurant/a5dd/de-legna-pizzas', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Taghit', 'URL': '/restaurant/a6tm/taghit', 'RATING': '3.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Double U', 'URL': '/restaurant/a5is/double-u', 'RATING': '3.8\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Erriane Restaurant', 'URL': '/restaurant/a8oc/erriane-restaurant', 'RATING': '3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Fast Provence', 'URL': '/restaurant/a0ah/fast-provence', 'RATING': '2.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Gum Gum Pizza', 'URL': '/restaurant/a6th/gum-gum-pizza', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Holiday Inn Restaurant', 'URL': '/restaurant/a9ed/holiday-inn', 'RATING': '3.1\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'La Pizza', 'URL': '/restaurant/a3hn/la-pizza', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Délice', 'URL': '/restaurant/a0oz/le-delice', 'RATING': '3.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Mazaya Echam', 'URL': '/restaurant/a9rt/mazaya-echam', 'RATING': '3.3\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'O Circuit', 'URL': '/restaurant/a3ff/o-circuit', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "O'Seven", 'URL': '/restaurant/a5qk/o-sev7en', 'RATING': '3.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "Pâtisserie l'Aquarium", 'URL': '/restaurant/a0jp/patisserie-l-aquarium', 'RATING': '3.8\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Taste Of India', 'URL': '/restaurant/a4st/taste-of-india-vendor', 'RATING': '3.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Twin Pizza', 'URL': '/restaurant/a3yy/twin-pizza', 'RATING': '3.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Virtual Pizza- by Virtual Game', 'URL': '/restaurant/a7vn/virtual-pizza-by-virtual-game', 'RATING': '3.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Mirage', 'URL': '/restaurant/a1em/le-mirage', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': '16 éme arrondissement', 'URL': '/restaurant/a8sa/16-eme-arrondissement', 'RATING': '3.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Boss burger', 'URL': '/restaurant/a8zr/boss-burger', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Broccoli Pizza and Pasta', 'URL': '/restaurant/a0kq/broccoli-pizza-and-pasta', 'RATING': '3.9\xa0•'}     
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Gusto Pizza', 'URL': '/restaurant/a0sx/gusto', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Hélios Snack', 'URL': '/restaurant/a6mc/helios-chili-food', 'RATING': '3.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Pizzeria le four', 'URL': '/restaurant/a2uh/pizzeria-le-four', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Showcase', 'URL': '/restaurant/a9mp/showcase', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Uphoria', 'URL': '/restaurant/a5hj/uphoria', 'RATING': '3.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Woody Grill', 'URL': '/restaurant/a3mj/woody-grill', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Le Voutain', 'URL': '/restaurant/a7qs/le-voutain', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Al Forno', 'URL': '/restaurant/a4te/al-forno-vendor', 'RATING': '4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Saha Oua Djawda', 'URL': '/restaurant/a5kr/saha-oua-djawda', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Loft', 'URL': '/restaurant/a3uq/le-loft', 'RATING': '3.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Big Bag', 'URL': '/restaurant/a0qp/big-bagnew', 'RATING': '3.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Taxi Pizza', 'URL': '/restaurant/a9mz/taxi-pizza', 'RATING': '3.4\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Woodpecker Bouzareah', 'URL': '/restaurant/a0em/woodpecker-bouzareah', 'RATING': '4.5\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Turcomania', 'URL': '/restaurant/a1ku/turcomania', 'RATING': '3.6\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Home Burger', 'URL': '/restaurant/a9gs/home-burger', 'RATING': '0\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': "L'Aparté Fait Maison", 'URL': '/restaurant/a0yr/l-aparte-fait-maison', 'RATING': '3.9\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Kiosque Pizza', 'URL': '/restaurant/a9di/kiosque-pizza', 'RATING': '3.7\xa0•'}
+2021-04-30 14:57:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://food.jumia.dz/restaurants>
+{'name': 'Hellofood Test Restaurant 2', 'URL': '/restaurant/a8cp/hellofood-test-restaurant-2', 'RATING': '0\xa0•'} 
+2021-04-30 14:57:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-04-30 14:57:18 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:63797/session/dcbc7eeada7401c0dd0423d2d4066720 {}
+2021-04-30 14:57:19 [urllib3.connectionpool] DEBUG: http://127.0.0.1:63797 "DELETE /session/dcbc7eeada7401c0dd0423d2d4066720 HTTP/1.1" 200 14
+2021-04-30 14:57:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-04-30 14:57:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/response_bytes': 264828,
+ 'downloader/response_count': 1,
+ 'elapsed_time_seconds': 34.032307,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 4, 30, 13, 57, 18, 981211),
+ 'item_scraped_count': 248,
+ 'log_count/DEBUG': 268,
+ 'log_count/INFO': 10,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2021, 4, 30, 13, 56, 44, 948904)}

@@ -14,12 +14,12 @@ NEWSPIDER_MODULE = 'jumia_scraping_from_scratch.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'jumia_scraping_from_scratch (+http://www.yourdomain.com)'
-"""
-'User-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 \
+# USER_AGENT = 'jumia_scraping_from_scratch (+http://www.yourdomain.com)'
+
+USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 \
     like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) \
     Version/9.0 Mobile/13B137 Safari/601.1'
-"""
+
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
@@ -29,7 +29,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 5
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
