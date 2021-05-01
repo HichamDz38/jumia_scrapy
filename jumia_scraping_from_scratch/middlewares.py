@@ -8,7 +8,6 @@ import random
 from random import choice
 import requests
 # useful for handling different item types with a single interface
-from itemadapter import is_item, ItemAdapter
 
 
 class JumiaScrapingFromScratchSpiderMiddleware:
