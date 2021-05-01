@@ -16,9 +16,9 @@ NEWSPIDER_MODULE = 'jumia_scraping_from_scratch.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'jumia_scraping_from_scratch (+http://www.yourdomain.com)'
 
-USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 \
-    like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) \
-    Version/9.0 Mobile/13B137 Safari/601.1'
+# USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 \
+#     like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) \
+#     Version/9.0 Mobile/13B137 Safari/601.1'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -66,9 +66,9 @@ DOWNLOAD_DELAY = 5
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'jumia_scraping_from_scratch.pipelines.JumiaScrapingFromScratchPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'jumia_scraping_from_scratch.pipelines.JumiaScrapingFromScratchPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -99,5 +99,37 @@ SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver')
 SELENIUM_DRIVER_ARGUMENTS=['--headless']  
   
 DOWNLOADER_MIDDLEWARES = {
-     'scrapy_selenium.SeleniumMiddleware': 800
+     #'scrapy_selenium.SeleniumMiddleware': 800,
+     'jumia_scraping_from_scratch.middlewares.RotateUserAgentMiddleware': 110,
      }
+SPIDER_MIDDLEWARES = {
+    'jumia_scraping_from_scratch.middlewares.JumiaScrapingFromScratchSpiderMiddleware': 543,
+}
+
+#'scrapy_selenium.SeleniumMiddleware': 800,
+#'jumia_scraping_from_scratch.middlewares.JumiaScrapingFromScratchDownloaderMiddleware':543
+
+USER_AGENTS = [
+    ('Mozilla/5.0 (X11; Linux x86_64) '
+     'AppleWebKit/537.36 (KHTML, like Gecko) '
+     'Chrome/57.0.2987.110 '
+     'Safari/537.36'),  # chrome
+    ('Mozilla/5.0 (X11; Linux x86_64) '
+     'AppleWebKit/537.36 (KHTML, like Gecko) '
+     'Chrome/61.0.3163.79 '
+     'Safari/537.36'),  # chromes
+    ('Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) '
+     'Gecko/20100101 '
+     'Firefox/55.0')  # firefox
+]
+
+USER_AGENT_CHOICES = [
+    'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:23.0) Gecko/20100101 Firefox/23.0',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36',
+    'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20140205 Firefox/24.0 Iceweasel/24.3.0',
+    'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0',
+    'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:28.0) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2',
+]

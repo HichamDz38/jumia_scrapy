@@ -4,7 +4,8 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+import random
+from random import choice
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
 
@@ -49,7 +50,12 @@ class JumiaScrapingFromScratchSpiderMiddleware:
         # that it doesn’t have a response associated.
 
         # Must return only requests (not items).
+        #start_requests.meta['proxy'] = "https:188.166.245.147:8050"
+        proxies = ['188.166.125.206:37956','165.227.173.87:42446','152.179.12.86:3128','34.235.130.251:80','51.91.109.83:80','103.51.103.22:80','188.166.245.147:8050','158.101.114.88:80','149.56.47.132:443','3.141.15.224:3128']
         for r in start_requests:
+            proxy = random.choice(proxies)
+            print('proxy: ',proxy)
+            r.meta['proxy'] = proxy
             yield r
 
     def spider_opened(self, spider):
@@ -101,3 +107,32 @@ class JumiaScrapingFromScratchDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class RotateUserAgentMiddleware(object):
+    """Rotate user-agent for each request."""
+    def __init__(self, user_agents):
+        self.enabled = False
+        self.user_agents = user_agents
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        user_agents = crawler.settings.get('USER_AGENT_CHOICES', [])
+
+        if not user_agents:
+            raise NotConfigured("USER_AGENT_CHOICES not set or empty")
+
+        o = cls(user_agents)
+        crawler.signals.connect(o.spider_opened, signal=signals.spider_opened)
+
+        return o
+
+    def spider_opened(self, spider):
+        self.enabled = getattr(spider, 'rotate_user_agent', self.enabled)
+
+    def process_request(self, request, spider):
+        if not self.enabled or not self.user_agents:
+            return
+
+        request.headers['user-agent'] = choice(self.user_agents)
+        print('user-agent:', request.headers['user-agent'])

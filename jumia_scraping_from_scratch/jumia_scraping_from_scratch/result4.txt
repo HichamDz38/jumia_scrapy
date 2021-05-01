@@ -1,0 +1,622 @@
+Burger Salades Sandwichs Tacos'}
+{'NAME': 'Oui Oui Döner Cheraga', 'URL': 'https://food.jumia.dz/restaurant/a3gz/oui-oui-doner-cheraga', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Kebab'}
+{'NAME': 'Laser Food- by Laser Strike', 'URL': 'https://food.jumia.dz/restaurant/a6co/laser-strike', 'RATING': '3.8', 'PRICE': '$$', 'CUISINE': 'Libanais Burger'}
+{'NAME': 'Wok Street', 'URL': 'https://food.jumia.dz/restaurant/a3sc/wok-street', 'RATING': '4.5', 'PRICE': '$$$', 
+'CUISINE': 'Sushi Cuisine Asiatique'}
+{'NAME': 'La Cité Asiatique', 'URL': 'https://food.jumia.dz/restaurant/a9en/la-cite-asiatique', 'RATING': '4.3', 'PRICE': '$$$', 'CUISINE': 'Sushi Cuisine Asiatique'}
+{'NAME': 'Central Up', 'URL': 'https://food.jumia.dz/restaurant/a6ed/central-up', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Burger Pizza Sandwichs Tacos'}
+{'NAME': 'Abracadabra Döner Kebab', 'URL': 'https://food.jumia.dz/restaurant/a6jb/abracadabra-kabab', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Kebab'}
+{'NAME': 'La Patisserie by Lucas Castello- Hydra', 'URL': 'https://food.jumia.dz/restaurant/a3gw/la-patisserie-by-lucas-castello-hydra', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Pâtisserie et Boulangerie Sucré - Desserts'}      
+{'NAME': 'Restaurant Divan', 'URL': 'https://food.jumia.dz/restaurant/a1iy/restaurant-divan', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': 'Fresh Cook', 'URL': 'https://food.jumia.dz/restaurant/a1xh/fresh-cook', 'RATING': '2.7', 'PRICE': '$', 'CUISINE': 'Salades Healthy Food'}
+{'NAME': 'The Grill', 'URL': 'https://food.jumia.dz/restaurant/a9hy/the-grill', 'RATING': '5', 'PRICE': '$', 'CUISINE': 'Salades Sandwichs Tacos Burger'}
+{'NAME': 'Sushi Ball', 'URL': 'https://food.jumia.dz/restaurant/a7lg/sushi-ball', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Cuisine Asiatique'}
+{'NAME': 'Chic Chic Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a5ap/chic-chic-restaurant', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Grillades Pizza Salades Sandwichs Cuisine Méditerranéenne'}
+{'NAME': "L'Avenue", 'URL': 'https://food.jumia.dz/restaurant/a2mk/l-avenue', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Cuisine Française Poissons Cuisine Méditerranéenne'}
+{'NAME': 'La Cale', 'URL': 'https://food.jumia.dz/restaurant/a0va/la-cale', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Poissons'}
+{'NAME': 'Scottish', 'URL': 'https://food.jumia.dz/restaurant/a6dh/scottish', 'RATING': '4.5', 'PRICE': '$$', 'CUISINE': 'Burger Grillades pâtes Salades Cuisine Méditerranéenne'}
+{'NAME': 'Papadum Indian Food', 'URL': 'https://food.jumia.dz/restaurant/a9nn/papadum-indian-food-vendor', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'Restaurant Poisson Warsnis', 'URL': 'https://food.jumia.dz/restaurant/a2hb/restaurant-poisson-warsnis', 'RATING': '4.6', 'PRICE': '$$', 'CUISINE': 'Paella Salades Poissons'}
+{'NAME': 'Le Coq', 'URL': 'https://food.jumia.dz/restaurant/a1nu/le-coq', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger Salades Tacos Sandwichs'}
+{'NAME': 'American Burger', 'URL': 'https://food.jumia.dz/restaurant/a9sl/american-burger', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Sandwichs Burger'}
+{'NAME': 'Le Tajine', 'URL': 'https://food.jumia.dz/restaurant/a4xt/le-tajine', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': 'White Dream restaurant', 'URL': 'https://food.jumia.dz/restaurant/a6zk/white-dream-restaurant', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Cuisine Méditerranéenne'}
+{'NAME': 'Fast Pasta', 'URL': 'https://food.jumia.dz/restaurant/a1lt/fast-pasta', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Healthy Food pâtes Salades Cuisine Méditerranéenne'}
+{'NAME': 'Chicken Chicken', 'URL': 'https://food.jumia.dz/restaurant/a1hg/chicken-chicken', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Fried Chicken'}
+{'NAME': 'Diwan El Bacha', 'URL': 'https://food.jumia.dz/restaurant/a4lm/diwan-el-bacha', 'RATING': '3.6', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': "Lulli's", 'URL': 'https://food.jumia.dz/restaurant/a6ky/lulli-s', 'RATING': '4.5', 'PRICE': '$$', 'CUISINE': 'Burger Cuisine Méditerranéenne Fried Chicken'}
+{'NAME': 'Cooks Traditionnel', 'URL': 'https://food.jumia.dz/restaurant/a5vc/cooks-traditionnel', 'RATING': '3.9', 
+'PRICE': '$$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': 'Hotspot restaurant', 'URL': 'https://food.jumia.dz/restaurant/a6pr/hotspot-restaurant', 'RATING': '4.5', 
+'PRICE': '$$', 'CUISINE': 'Fried Chicken'}
+{'NAME': 'House Of Burgers', 'URL': 'https://food.jumia.dz/restaurant/a6iq/house-of-burgers-hydra', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': "Pizza Time Val d'Hydra", 'URL': 'https://food.jumia.dz/restaurant/a9hs/pizza-time-val-d-hydra', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Funky Au Feu de Bois', 'URL': 'https://food.jumia.dz/restaurant/a7hd/funky-au-feu-de-bois', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Tacos World', 'URL': 'https://food.jumia.dz/restaurant/a5dw/tacos-world', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Tacos'}
+{'NAME': 'Arizona', 'URL': 'https://food.jumia.dz/restaurant/a0qa/arizona', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Cuisine Méditerranéenne'}
+{'NAME': 'Pizza Nostra', 'URL': 'https://food.jumia.dz/restaurant/a1kk/pizza-nostra-draria', 'RATING': '5', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Wood Chicken', 'URL': 'https://food.jumia.dz/restaurant/a7sg/wood-chicken', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs Pizza'}
+{'NAME': 'Dziri Grill', 'URL': 'https://food.jumia.dz/restaurant/a0eg/dziri-grill', 'RATING': '3.9', 'PRICE': '$', 
+'CUISINE': 'Grillades Paella Pizza'}
+{'NAME': 'House Of Burgers', 'URL': 'https://food.jumia.dz/restaurant/a6ug/house-of-burgers-bab-zouar', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Snappy', 'URL': 'https://food.jumia.dz/restaurant/a9le/snappy', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Burger Pizza Tacos'}
+{'NAME': 'Original Tacos', 'URL': 'https://food.jumia.dz/restaurant/a3qm/original-tacos', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Tacos'}
+{'NAME': 'Naan & Tacos', 'URL': 'https://food.jumia.dz/restaurant/a8dv/naan', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Naan Tacos Sandwichs'}
+{'NAME': 'La Casa Del Burger', 'URL': 'https://food.jumia.dz/restaurant/a9bv/la-casa-del-burger', 'RATING': '4.2', 
+'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': "Fratello's by Pizza Show", 'URL': 'https://food.jumia.dz/restaurant/a2eh/fratello-s-by-pizza-show', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Sandwichs Pizza'}
+{'NAME': 'Shakes Burgers & Grill', 'URL': 'https://food.jumia.dz/restaurant/a2zq/shakes-burgers', 'RATING': '4.5', 
+'PRICE': '$$', 'CUISINE': 'Cuisine Méditerranéenne Burger'}
+{'NAME': 'Sultan Express', 'URL': 'https://food.jumia.dz/restaurant/a0kv/sultan-alger-centre', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale Grillades Libanais Pizza Salades Sandwichs Tacos Kebab'}
+{'NAME': 'Brother Pizza&Tacos', 'URL': 'https://food.jumia.dz/restaurant/a1vh/brother-ts', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Sandwichs Tacos'}
+{'NAME': 'Eaten Out Pizza', 'URL': 'https://food.jumia.dz/restaurant/a3bx/eaten-out-pizza', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Bocadillos', 'URL': 'https://food.jumia.dz/restaurant/a1zk/bocadillos', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Burger Salades Sandwichs'}
+{'NAME': 'Rest House', 'URL': 'https://food.jumia.dz/restaurant/a5no/rest-house', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': 'Tacobab', 'URL': 'https://food.jumia.dz/restaurant/a3af/taco', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 
+'Tacos'}
+{'NAME': "Pizzeria l'Étoile", 'URL': 'https://food.jumia.dz/restaurant/a4to/pizzeria-l-etoile', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Sandwichs Pizza'}
+{'NAME': 'Au Feu de Bois', 'URL': 'https://food.jumia.dz/restaurant/a8gm/feu-de-bois', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'La Maison du Tacos', 'URL': 'https://food.jumia.dz/restaurant/a5rt/la-maison-du-tacos', 'RATING': '4.6', 
+'PRICE': '$', 'CUISINE': 'Tacos'}
+{'NAME': 'Arrabiata', 'URL': 'https://food.jumia.dz/restaurant/a9sd/arabiata', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Salades Tacos Sandwichs'}
+{'NAME': 'La Rôtisserie', 'URL': 'https://food.jumia.dz/restaurant/a4bf/la-rotisserie', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Grillades Sandwichs Cuisine Méditerranéenne'}
+{'NAME': 'BUTCHER Volcanic H-Y', 'URL': 'https://food.jumia.dz/restaurant/a9xk/butcher-volcanic-h-y', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Le Monde', 'URL': 'https://food.jumia.dz/restaurant/a3jr/le-monde', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Burger Healthy Food Pizza Salades Cuisine Méditerranéenne'}
+{'NAME': 'Abracadabra Kebab kouba', 'URL': 'https://food.jumia.dz/restaurant/a0et/abracadabra-kebab-kouba', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Kebab'}
+{'NAME': 'Salad Box', 'URL': 'https://food.jumia.dz/restaurant/a0sd/salad-box', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Healthy Food'}
+{'NAME': 'Cooks Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a1at/cooks-restaurant', 'RATING': '2', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Cuisine Méditerranéenne'}
+{'NAME': 'Le Bistrot', 'URL': 'https://food.jumia.dz/restaurant/a1ea/le-bistrot', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Cuisine Algérienne Grillades Poissons Salades Cuisine Méditerranéenne'}
+{'NAME': 'The Wall', 'URL': 'https://food.jumia.dz/restaurant/a9on/the-wall', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Burger Salades Sandwichs'}
+{'NAME': 'Casse Croûte Babez', 'URL': 'https://food.jumia.dz/restaurant/a7lh/casse-croute-babez', 'RATING': '4.1', 
+'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': "Poppy's", 'URL': 'https://food.jumia.dz/restaurant/a5ia/poppy-s', 'RATING': '3.6', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Ali Baba', 'URL': 'https://food.jumia.dz/restaurant/a8iv/ali-baba-restaurant', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Burger Chawarma Grillades Sandwichs'}
+{'NAME': 'Speed Food', 'URL': 'https://food.jumia.dz/restaurant/a5ue/speed-food', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Salades Sandwichs Tacos Burger'}
+{'NAME': 'Corner by Sultan', 'URL': 'https://food.jumia.dz/restaurant/a0cc/corner-by-sultan', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale Grillades Libanais Salades Sandwichs Tacos Pizza'}
+{'NAME': 'Leoncino', 'URL': 'https://food.jumia.dz/restaurant/a5su/leoncino', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Al Forno', 'URL': 'https://food.jumia.dz/restaurant/a4xp/al-forno-vendor-1', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Pizzeria Il Fornello', 'URL': 'https://food.jumia.dz/restaurant/a0ts/pizzeria-il-fornello', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs Tacos Pizza'}
+{'NAME': 'Tacos+', 'URL': 'https://food.jumia.dz/restaurant/a1fd/o-tacosplus', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': 'El Baih', 'URL': 'https://food.jumia.dz/restaurant/a3ab/el-baih', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale Kebab'}
+{'NAME': 'Mc Roux', 'URL': 'https://food.jumia.dz/restaurant/a7mc/mc-roux', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Pizza'}
+{'NAME': "Dawg's", 'URL': 'https://food.jumia.dz/restaurant/a4za/dawgs', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 
+'Burger'}
+{'NAME': 'Le Rodizio Pizzeria Brésilienne', 'URL': 'https://food.jumia.dz/restaurant/a5mf/le-rodizio', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'The Joker Food', 'URL': 'https://food.jumia.dz/restaurant/a6pv/the-joker-fodd', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': 'Maracas', 'URL': 'https://food.jumia.dz/restaurant/a9np/maracas', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Mexicain Tacos'}
+{'NAME': 'Mandala', 'URL': 'https://food.jumia.dz/restaurant/a9xa/mandala', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Tacos Pizza'}
+{'NAME': 'El Maida', 'URL': 'https://food.jumia.dz/restaurant/a9bl/el-maida', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': "Chick'n Beef", 'URL': 'https://food.jumia.dz/restaurant/a7zj/chick-n-beef', 'RATING': '4.6', 'PRICE': '$', 'CUISINE': 'Burger Tacos Sandwichs'}
+{'NAME': 'California Burger', 'URL': 'https://food.jumia.dz/restaurant/a6zm/california-burger', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': 'Appolino', 'URL': 'https://food.jumia.dz/restaurant/a4iv/appolino', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Burger Pizza'}
+{'NAME': 'Chapati Tunisien', 'URL': 'https://food.jumia.dz/restaurant/a1im/chapati-tunisien', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Le Gâté', 'URL': 'https://food.jumia.dz/restaurant/a8nn/le-gate', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': 'Dady Pizza', 'URL': 'https://food.jumia.dz/restaurant/a8fh/dady-pizza', 'RATING': '5', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs Tacos Pizza'}
+{'NAME': 'Zahrat Dimachq', 'URL': 'https://food.jumia.dz/restaurant/a4ny/zahrat-dimachq', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': "Fren'cheese", 'URL': 'https://food.jumia.dz/restaurant/a9an/fren-cheese', 'RATING': '4.2', 'PRICE': '$', 
+'CUISINE': 'Salades Sandwichs Tacos'}
+{'NAME': 'The Crossroads', 'URL': 'https://food.jumia.dz/restaurant/a8ws/the-crossroads', 'RATING': '3.5', 'PRICE': '$', 'CUISINE': 'Burger Tacos Pizza'}
+{'NAME': 'Dos Dos Pizza & Food', 'URL': 'https://food.jumia.dz/restaurant/a6al/dos-dos-pizza-food', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Tacos Pizza'}
+{'NAME': 'Casa Bianca', 'URL': 'https://food.jumia.dz/restaurant/a6rp/casa-bianca', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Sandwichs'}
+{'NAME': 'Lamassat', 'URL': 'https://food.jumia.dz/restaurant/a6fv/lamassat', 'RATING': '3.6', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Classicco', 'URL': 'https://food.jumia.dz/restaurant/a9xg/classicco', 'RATING': '4.7', 'PRICE': '$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Tchikos Pizza', 'URL': 'https://food.jumia.dz/restaurant/a0nc/tchikos-pizza', 'RATING': '3.7', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs Tacos Pizza'}
+{'NAME': 'Oui Oui Döner Dely Ibrahim', 'URL': 'https://food.jumia.dz/restaurant/a3wh/oui-oui-doner-dely-ibrahim', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Kebab'}
+{'NAME': 'Walibi', 'URL': 'https://food.jumia.dz/restaurant/a5ae/walibi', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Pizza'}
+{'NAME': 'Tacos Dey', 'URL': 'https://food.jumia.dz/restaurant/a2ie/tacos-dey', 'RATING': '5', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': "O'Churros", 'URL': 'https://food.jumia.dz/restaurant/a8lq/churros', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Chocolat Sucré - Desserts'}
+{'NAME': 'Snack à Gogo', 'URL': 'https://food.jumia.dz/restaurant/a3nc/snack-a-gogo-vendor', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Burger Libanais Pizza Sandwichs'}
+{'NAME': 'Brooklyn', 'URL': 'https://food.jumia.dz/restaurant/a2lj/brooklyn', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Burger Salades Tacos Pizza'}
+{'NAME': 'Ramo Pizza', 'URL': 'https://food.jumia.dz/restaurant/a7nf/ramos-pizza', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Pizza'}
+{'NAME': 'Leonard City Center', 'URL': 'https://food.jumia.dz/restaurant/a9qg/leonard-city-center', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Burger Grillades Pizza Salades Cuisine Méditerranéenne'}
+{'NAME': 'Makloub Dely Brahim', 'URL': 'https://food.jumia.dz/restaurant/a9dh/mekloub-dely-brahim', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Pizza Sandwichs'}
+{'NAME': 'Fresh Burger', 'URL': 'https://food.jumia.dz/restaurant/a0ow/fresh-burger-1', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Cuisine Méditerranéenne Pizza Sandwichs Burger'}
+{'NAME': 'Mio Mondo', 'URL': 'https://food.jumia.dz/restaurant/a1gr/mio-mondo', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Burger Chocolat Tacos'}
+{'NAME': 'Food Truck', 'URL': 'https://food.jumia.dz/restaurant/a8qw/food-truck', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Salades Sandwichs Tacos Burger'}
+{'NAME': 'Le Grenier', 'URL': 'https://food.jumia.dz/restaurant/a2om/le-grenier', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Kebab Sandwichs Pizza'}
+{'NAME': 'Maza snack', 'URL': 'https://food.jumia.dz/restaurant/a6lc/maza-snack', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Del Tacos', 'URL': 'https://food.jumia.dz/restaurant/a7nx/del-tacos', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Tacos'}
+extracting values error  'NoneType' object has no attribute 'split'
+{'NAME': 'De Legna Pizzas', 'URL': 'https://food.jumia.dz/restaurant/a5dd/de-legna-pizzas', 'RATING': '0', 'PRICE': '', 'CUISINE': ''}
+{'NAME': 'Taghit', 'URL': 'https://food.jumia.dz/restaurant/a6tm/taghit', 'RATING': '3.5', 'PRICE': '$$$', 'CUISINE': 'Cuisine Algérienne'}
+{'NAME': 'Double U', 'URL': 'https://food.jumia.dz/restaurant/a5is/double-u', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Café Glace Libanais Chocolat'}
+{'NAME': 'Erriane Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a8oc/erriane-restaurant', 'RATING': '3', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Pizza'}
+{'NAME': 'Fast Provence', 'URL': 'https://food.jumia.dz/restaurant/a0ah/fast-provence', 'RATING': '2.3', 'PRICE': '$', 'CUISINE': 'Grillades Pizza Salades Cuisine Méditerranéenne'}
+{'NAME': 'Gum Gum Pizza', 'URL': 'https://food.jumia.dz/restaurant/a6th/gum-gum-pizza', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Salades Pizza'}
+{'NAME': 'Holiday Inn Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a9ed/holiday-inn', 'RATING': '3.1', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale Pizza'}
+{'NAME': 'La Pizza', 'URL': 'https://food.jumia.dz/restaurant/a3hn/la-pizza', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Tacos Pizza'}
+{'NAME': 'Le Délice', 'URL': 'https://food.jumia.dz/restaurant/a0oz/le-delice', 'RATING': '3.4', 'PRICE': '$', 'CUISINE': 'Cuisine Algérienne Pizza Salades Sandwichs Grillades'}
+{'NAME': 'Mazaya Echam', 'URL': 'https://food.jumia.dz/restaurant/a9rt/mazaya-echam', 'RATING': '3.3', 'PRICE': '$', 'CUISINE': 'Sandwichs Cuisine Orientale'}
+{'NAME': 'O Circuit', 'URL': 'https://food.jumia.dz/restaurant/a3ff/o-circuit', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': "O'Seven", 'URL': 'https://food.jumia.dz/restaurant/a5qk/o-sev7en', 'RATING': '3.6', 'PRICE': '$', 'CUISINE': ''}
+{'NAME': "Pâtisserie l'Aquarium", 'URL': 'https://food.jumia.dz/restaurant/a0jp/patisserie-l-aquarium', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Pâtisserie et Boulangerie'}
+{'NAME': 'Taste Of India', 'URL': 'https://food.jumia.dz/restaurant/a4st/taste-of-india-vendor', 'RATING': '3.4', 'PRICE': '$$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'Twin Pizza', 'URL': 'https://food.jumia.dz/restaurant/a3yy/twin-pizza', 'RATING': '3.5', 'PRICE': '$$', 'CUISINE': 'Sandwichs Pizza'}
+{'NAME': 'Virtual Pizza- by Virtual Game', 'URL': 'https://food.jumia.dz/restaurant/a7vn/virtual-pizza-by-virtual-game', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Le Mirage', 'URL': 'https://food.jumia.dz/restaurant/a1em/le-mirage', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': '16 éme arrondissement', 'URL': 'https://food.jumia.dz/restaurant/a8sa/16-eme-arrondissement', 'RATING': '3.4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Boss burger', 'URL': 'https://food.jumia.dz/restaurant/a8zr/boss-burger', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Broccoli Pizza and Pasta', 'URL': 'https://food.jumia.dz/restaurant/a0kq/broccoli-pizza-and-pasta', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Salades Pizza'}
+{'NAME': 'Gusto Pizza', 'URL': 'https://food.jumia.dz/restaurant/a0sx/gusto', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Hélios Snack', 'URL': 'https://food.jumia.dz/restaurant/a6mc/helios-chili-food', 'RATING': '3.5', 'PRICE': '$', 'CUISINE': 'Burger Pizza'}
+{'NAME': 'Pizzeria le four', 'URL': 'https://food.jumia.dz/restaurant/a2uh/pizzeria-le-four', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Showcase', 'URL': 'https://food.jumia.dz/restaurant/a9mp/showcase', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Burger'}
+{'NAME': 'Uphoria', 'URL': 'https://food.jumia.dz/restaurant/a5hj/uphoria', 'RATING': '3.5', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Woody Grill', 'URL': 'https://food.jumia.dz/restaurant/a3mj/woody-grill', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Kebab Grillades'}
+{'NAME': 'Le Voutain', 'URL': 'https://food.jumia.dz/restaurant/a7qs/le-voutain', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Cuisine Méditerranéenne'}
+{'NAME': 'Al Forno', 'URL': 'https://food.jumia.dz/restaurant/a4te/al-forno-vendor', 'RATING': '4', 'PRICE': '$$', 
+'CUISINE': 'Pizza'}
+{'NAME': 'Saha Oua Djawda', 'URL': 'https://food.jumia.dz/restaurant/a5kr/saha-oua-djawda', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Healthy Food'}
+{'NAME': 'Loft', 'URL': 'https://food.jumia.dz/restaurant/a3uq/le-loft', 'RATING': '3.6', 'PRICE': '$$', 'CUISINE': 'Libanais Cuisine Algérienne Grillades Pizza Salades'}
+{'NAME': 'Big Bag', 'URL': 'https://food.jumia.dz/restaurant/a0qp/big-bagnew', 'RATING': '3.7', 'PRICE': '$$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Taxi Pizza', 'URL': 'https://food.jumia.dz/restaurant/a9mz/taxi-pizza', 'RATING': '3.4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Woodpecker Bouzareah', 'URL': 'https://food.jumia.dz/restaurant/a0em/woodpecker-bouzareah', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Turcomania', 'URL': 'https://food.jumia.dz/restaurant/a1ku/turcomania', 'RATING': '3.6', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': 'Home Burger', 'URL': 'https://food.jumia.dz/restaurant/a9gs/home-burger', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': "L'Aparté Fait Maison", 'URL': 'https://food.jumia.dz/restaurant/a0yr/l-aparte-fait-maison', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': 'Kiosque Pizza', 'URL': 'https://food.jumia.dz/restaurant/a9di/kiosque-pizza', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Pizza Sandwichs Burger'}
+{'NAME': 'Hellofood Test Restaurant 2', 'URL': 'https://food.jumia.dz/restaurant/a8cp/hellofood-test-restaurant-2', 'RATING': '0', 'PRICE': '$', 'CUISINE': ''}
+2021-05-01 01:16:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-05-01 01:16:11 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:56499/session/84c47f36d2547b9ab94a7cc29dbf3fb1 {}
+2021-05-01 01:16:11 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56499 "DELETE /session/84c47f36d2547b9ab94a7cc29dbf3fb1 HTTP/1.1" 200 14
+2021-05-01 01:16:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:16:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/response_bytes': 264256,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 4.915854,
+ 'finish_reason': 'finished',
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2021, 5, 1, 0, 16, 6, 184459)}
+2021-05-01 01:16:13 [scrapy.core.engine] INFO: Spider closed (finished)
+PS E:\prodjet\Works\jobs_test\invisible\jumia_scraping_from_scratch> scrapy crawl integratedspider
+2021-05-01 01:16:57 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: jumia_scraping_from_scratch)
+2021-05-01 01:16:57 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, 
+w3lib 1.22.0, Twisted 21.2.0, Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Windows-10-10.0.18362-SP0
+2021-05-01 01:16:57 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-05-01 01:16:57 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jumia_scraping_from_scratch',
+ 'DOWNLOAD_DELAY': 5,
+ 'NEWSPIDER_MODULE': 'jumia_scraping_from_scratch.spiders',
+ 'SPIDER_MODULES': ['jumia_scraping_from_scratch.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1     like Mac OS X) '
+               'AppleWebKit/601.1.46 (KHTML, like Gecko)     Version/9.0 '
+               'Mobile/13B137 Safari/601.1'}
+2021-05-01 01:16:57 [scrapy.extensions.telnet] INFO: Telnet Password: 4f9138d4a24209fb
+2021-05-01 01:16:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-05-01 01:16:58 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:56555/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+2021-05-01 01:16:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 127.0.0.1:56555
+
+DevTools listening on ws://127.0.0.1:56561/devtools/browser/37a3efde-97d4-4120-b3e2-189efead14a7
+2021-05-01 01:16:58 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56555 "POST /session HTTP/1.1" 200 752
+2021-05-01 01:16:58 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:16:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy_selenium.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-05-01 01:16:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'jumia_scraping_from_scratch.middlewares.JumiaScrapingFromScratchSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-05-01 01:16:58 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2021-05-01 01:16:58 [scrapy.core.engine] INFO: Spider opened
+2021-05-01 01:16:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-05-01 01:16:58 [integratedspider] INFO: Spider opened: integratedspider
+2021-05-01 01:16:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+proxy:  188.166.245.147:8050
+2021-05-01 01:16:58 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:56555/session/fc8f5bc63cc7addfa53df2971293dfa7/url {"url": "https://food.jumia.dz/restaurants"}
+2021-05-01 01:17:02 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56555 "POST /session/fc8f5bc63cc7addfa53df2971293dfa7/url HTTP/1.1" 200 14
+2021-05-01 01:17:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:02 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:56555/session/fc8f5bc63cc7addfa53df2971293dfa7/screenshot {}
+2021-05-01 01:17:02 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56555 "GET /session/fc8f5bc63cc7addfa53df2971293dfa7/screenshot HTTP/1.1" 200 255716
+2021-05-01 01:17:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:02 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:56555/session/fc8f5bc63cc7addfa53df2971293dfa7/source {}
+2021-05-01 01:17:02 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56555 "GET /session/fc8f5bc63cc7addfa53df2971293dfa7/source HTTP/1.1" 200 318962
+2021-05-01 01:17:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:02 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:56555/session/fc8f5bc63cc7addfa53df2971293dfa7/url {}
+2021-05-01 01:17:02 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56555 "GET /session/fc8f5bc63cc7addfa53df2971293dfa7/url HTTP/1.1" 200 45
+2021-05-01 01:17:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://food.jumia.dz/restaurants> (referer: None)
+{'NAME': "O'Tacos", 'URL': 'https://food.jumia.dz/restaurant/a6bo/otacos', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Tacos'}
+{'NAME': 'La Marguerite', 'URL': 'https://food.jumia.dz/restaurant/a4mv/la-marguerite', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Tacos Pizza'}
+{'NAME': 'La Baraque à Tacos', 'URL': 'https://food.jumia.dz/restaurant/a1gq/la-baraque-a-tacos', 'RATING': '4.5', 
+'PRICE': '$', 'CUISINE': 'Tacos'}
+{'NAME': 'Mega pizza', 'URL': 'https://food.jumia.dz/restaurant/a5ru/mega-pizza', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Tacos Pizza'}
+{'NAME': 'Mini Market', 'URL': 'https://food.jumia.dz/restaurant/a7yj/cheraga-dar-diaf', 'RATING': '2.5', 'PRICE': 
+'$', 'CUISINE': 'Hypermarché'}
+{'NAME': 'Superette Kheyar kouba', 'URL': 'https://food.jumia.dz/restaurant/a9kx/superette-kheyar', 'RATING': '5', 
+'PRICE': '$', 'CUISINE': 'Hypermarché'}
+{'NAME': 'Seven superette', 'URL': 'https://food.jumia.dz/restaurant/a5ns/seven-superette', 'RATING': '4.8', 'PRICE': '$', 'CUISINE': 'Hypermarché'}
+{'NAME': 'Casse Croute Saïd Hamdine', 'URL': 'https://food.jumia.dz/restaurant/a8xi/casse-croute-said-hamdine', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Mâkel', 'URL': 'https://food.jumia.dz/restaurant/a7uu/makel', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Kebab Sandwichs Burger'}
+{'NAME': 'Pizza Happy', 'URL': 'https://food.jumia.dz/restaurant/a5cm/happy-pizza', 'RATING': '3.9', 'PRICE': '$', 
+'CUISINE': 'Pizza'}
+extracting values error  'NoneType' object has no attribute 'split'
+{'NAME': 'Select', 'URL': 'https://food.jumia.dz/restaurant/a6rh/select', 'RATING': '0', 'PRICE': '', 'CUISINE': ''}
+extracting values error  'NoneType' object has no attribute 'split'
+{'NAME': 'Select Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a9pw/select-restaurant', 'RATING': '0', 'PRICE': '', 'CUISINE': ''}
+{'NAME': 'Lo Bueno', 'URL': 'https://food.jumia.dz/restaurant/a2fc/lo-bueno', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Que Aproveche', 'URL': 'https://food.jumia.dz/restaurant/a6gg/que-aproveche', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Grillades'}
+{'NAME': 'Woodpecker Barthes', 'URL': 'https://food.jumia.dz/restaurant/a1jo/woodpecker-barthes', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'A 2 pas superette', 'URL': 'https://food.jumia.dz/restaurant/a3cx/a-2-pas-superette', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Hypermarché'}
+{'NAME': 'قفة رمضان', 'URL': 'https://food.jumia.dz/restaurant/a6oi/koffat-ramdane', 'RATING': '2.4', 'PRICE': '$', 'CUISINE': 'Hypermarché'}
+{'NAME': 'Jumia Food Test Restaurant 3', 'URL': 'https://food.jumia.dz/restaurant/a9ws/jumia-food-test-restaurant-3', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Bubble Waffle', 'URL': 'https://food.jumia.dz/restaurant/a7wk/bubble-waffle', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Chocolat Sucré - Desserts'}
+{'NAME': 'Pizza Hut', 'URL': 'https://food.jumia.dz/restaurant/a3mt/pizza-hut-vendor', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Pizza Hut', 'URL': 'https://food.jumia.dz/restaurant/a3zw/pizza-hut-sidi-yahia', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Tacos Gratinados', 'URL': 'https://food.jumia.dz/restaurant/a7ls/tacos-gratinados', 'RATING': '4.5', 'PRICE': '$$', 'CUISINE': 'Tacos'}
+{'NAME': 'Taj Mahal Ben Aknoun', 'URL': 'https://food.jumia.dz/restaurant/a7de/taj-mahal-ben-aknoun', 'RATING': '4.5', 'PRICE': '$$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'Crispy Burger', 'URL': 'https://food.jumia.dz/restaurant/a3co/crispy-burger', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': 'Taj Mahal Cheraga', 'URL': 'https://food.jumia.dz/restaurant/a0cp/taj-mahal-cheraga', 'RATING': '4.4', 'PRICE': '$$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'Pizza Time Sidi Yahia', 'URL': 'https://food.jumia.dz/restaurant/a9rx/pizza-time', 'RATING': '4.6', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Lookers Restaurant & Snack', 'URL': 'https://food.jumia.dz/restaurant/a9yi/lookers-restaurant', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Salades Sandwichs Tacos'}
+{'NAME': 'Casbah Istanbul', 'URL': 'https://food.jumia.dz/restaurant/a9gn/casbah-istanbul-ben-aknoun', 'RATING': '4.6', 'PRICE': '$$$', 'CUISINE': 'Kebab Cuisine Orientale'}
+{'NAME': 'Crêperie Poffertjes', 'URL': 'https://food.jumia.dz/restaurant/a8xs/creperie-poffertjes', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Chocolat Sucré - Desserts'}
+{'NAME': 'Maharaja', 'URL': 'https://food.jumia.dz/restaurant/a1wu/maharaja', 'RATING': '4.5', 'PRICE': '$$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'Casbah Istanbul', 'URL': 'https://food.jumia.dz/restaurant/a1ne/casbah-istanbul-bab-ezzouar', 'RATING': '4.4', 'PRICE': '$$$', 'CUISINE': 'Kebab Cuisine Orientale'}
+{'NAME': 'Val Street', 'URL': 'https://food.jumia.dz/restaurant/a2ca/val-street', 'RATING': '4.3', 'PRICE': '$$$', 
+'CUISINE': 'Grillades Cuisine Orientale'}
+{'NAME': 'Backstreet', 'URL': 'https://food.jumia.dz/restaurant/a4nf/backstreet', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Burger Cuisine Méditerranéenne Healthy Food pâtes Salades Sucré - Desserts Pizza'}
+{'NAME': 'Strelitzia', 'URL': 'https://food.jumia.dz/restaurant/a7fe/strelitzia', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': 'Beef Burger', 'URL': 'https://food.jumia.dz/restaurant/a1wn/beef-burger', 'RATING': '4.4', 'PRICE': '$', 
+'CUISINE': 'Sandwichs Sucré - Desserts Burger'}
+{'NAME': 'Lookers Coffee', 'URL': 'https://food.jumia.dz/restaurant/a8ku/lookers-coffee', 'RATING': '4.8', 'PRICE': '$', 'CUISINE': 'Café Chocolat Glace Sucré - Desserts'}
+{'NAME': 'Maharaja', 'URL': 'https://food.jumia.dz/restaurant/a7pi/maharaja-vendor-1', 'RATING': '4.4', 'PRICE': '$$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'American Diner', 'URL': 'https://food.jumia.dz/restaurant/a4nh/american-diner', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Grillades Pizza Tacos Burger'}
+{'NAME': 'La Patisserie by Lucas Castello- Dely Ibrahim', 'URL': 'https://food.jumia.dz/restaurant/a5ge/la-patisserie-by-lucas-castello-dely-ibrahim', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Pâtisserie et Boulangerie Sucré - Desserts'}
+{'NAME': 'La Plancha', 'URL': 'https://food.jumia.dz/restaurant/a0qh/la-plancha', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Burger'}
+{'NAME': 'La Belle Époque', 'URL': 'https://food.jumia.dz/restaurant/a4wq/la-belle-epoque', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Cuisine Méditerranéenne'}
+{'NAME': 'Le Bucheron', 'URL': 'https://food.jumia.dz/restaurant/a6iv/le-bucheron', 'RATING': '4.6', 'PRICE': '$', 
+'CUISINE': 'Burger Tacos Pizza'}
+{'NAME': 'La Palmeraie', 'URL': 'https://food.jumia.dz/restaurant/a2qh/la-palmeraie', 'RATING': '4.2', 'PRICE': '$$$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': "Miam's Pizza", 'URL': 'https://food.jumia.dz/restaurant/a7cz/miam-s-pizza', 'RATING': '4.5', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Strelitzia Hydra', 'URL': 'https://food.jumia.dz/restaurant/a7jr/strelitzia-hydra', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Burger'}
+{'NAME': 'Sultan', 'URL': 'https://food.jumia.dz/restaurant/a1bc/sultan', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale Grillades Libanais Pizza Salades Sandwichs Tacos Burger'}
+{'NAME': 'Salta3 Burger', 'URL': 'https://food.jumia.dz/restaurant/a1cl/salta3-burger', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Abracadabra Kebab Chéraga', 'URL': 'https://food.jumia.dz/restaurant/a3gj/abracadabra-kebab-cheraga', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Kebab'}
+{'NAME': "L'Atelier Du Pizzaiolo", 'URL': 'https://food.jumia.dz/restaurant/a4du/l-atelier-du-pizzaiolo', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'La Cité Interdite', 'URL': 'https://food.jumia.dz/restaurant/a2wk/la-cite-interdite', 'RATING': '4.3', 'PRICE': '$$$', 'CUISINE': 'Cuisine Asiatique'}
+{'NAME': 'Mc Cool', 'URL': 'https://food.jumia.dz/restaurant/a3at/mc-cool-burgers', 'RATING': '4.4', 'PRICE': '$', 
+'CUISINE': 'Burger'}
+{'NAME': "Paris'dza", 'URL': 'https://food.jumia.dz/restaurant/a0xs/paris-dza', 'RATING': '4.7', 'PRICE': '$$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Spuntino- Cuisine Tunisenne', 'URL': 'https://food.jumia.dz/restaurant/a3dn/spuntino-cuisine-tunisenne', 
+'RATING': '4', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale Pizza Sandwichs'}
+{'NAME': 'Spicy Chicken', 'URL': 'https://food.jumia.dz/restaurant/a7jc/spicy-chicken', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Salades Sandwichs Tacos Fried Chicken'}
+{'NAME': 'Anes Food Family', 'URL': 'https://food.jumia.dz/restaurant/a9wg/anes-food-family', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Yogorino & Pizza au Feu de Bois', 'URL': 'https://food.jumia.dz/restaurant/a3ih/yogorino', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Glace Pizza'}
+{'NAME': 'Al Forno', 'URL': 'https://food.jumia.dz/restaurant/a7wj/al-forno-vendor-2', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Maharaja', 'URL': 'https://food.jumia.dz/restaurant/a3li/maharaja-vendor', 'RATING': '4.3', 'PRICE': '$$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'Pizza Domino', 'URL': 'https://food.jumia.dz/restaurant/a6wf/pizza-domino', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': "So' Tacos", 'URL': 'https://food.jumia.dz/restaurant/a8oj/so-tacos', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Tacos'}
+{'NAME': 'Pizza Nostra - Pizza Au Feu De Bois', 'URL': 'https://food.jumia.dz/restaurant/a2mh/pizza-nostra', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Cédrus Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a6rb/cedrus-restaurant', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Healthy Food Libanais Cuisine Orientale'}
+{'NAME': 'H&M Boof', 'URL': 'https://food.jumia.dz/restaurant/a6wo/h-m-boof', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Sandwichs Tacos'}
+{'NAME': 'Hollywood Pizza', 'URL': 'https://food.jumia.dz/restaurant/a7ib/hollywood-pizza', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Fruits de Mer Grillades Salades Pizza'}
+{'NAME': 'Castellane Burger', 'URL': 'https://food.jumia.dz/restaurant/a3xa/castellane-burger', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': 'Pâtisserie mille délices', 'URL': 'https://food.jumia.dz/restaurant/a6ja/patisserie-mille-delices', 'RATING': '5', 'PRICE': '$$', 'CUISINE': 'Pâtisserie'}
+{'NAME': 'Tamgout', 'URL': 'https://food.jumia.dz/restaurant/a1pf/tamgout', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': 'Taste Of India', 'URL': 'https://food.jumia.dz/restaurant/a6tn/taste-of-india', 'RATING': '4.1', 'PRICE': '$$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'La Cabane', 'URL': 'https://food.jumia.dz/restaurant/a9ya/la-cabane', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Glace Grillades Pizza'}
+{'NAME': 'KYZ Frais Maison', 'URL': 'https://food.jumia.dz/restaurant/a6go/kyz-frais-maison', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs'}
+{'NAME': 'Cesar Burgers', 'URL': 'https://food.jumia.dz/restaurant/a6bu/cesar-burgers', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'La Perla Nera', 'URL': 'https://food.jumia.dz/restaurant/a5am/la-perla-nera', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Salades Pizza'}
+{'NAME': 'Forno Gusto', 'URL': 'https://food.jumia.dz/restaurant/a0gd/forno-gusto', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Big American Burger', 'URL': 'https://food.jumia.dz/restaurant/a4js/big-american-burger', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'My Pizza & Sundae', 'URL': 'https://food.jumia.dz/restaurant/a2by/my-sundae', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Glace Pizza'}
+{'NAME': 'BUTCHER Volcanic D-B', 'URL': 'https://food.jumia.dz/restaurant/a2iq/butcher-volcanic-d-b', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Gaza Burger', 'URL': 'https://food.jumia.dz/restaurant/a7be/gaza-burger', 'RATING': '4.2', 'PRICE': '$', 
+'CUISINE': 'Pizza Tacos Burger'}
+{'NAME': 'La Mama', 'URL': 'https://food.jumia.dz/restaurant/a9qf/la-mama', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'La Cantine Dely Brahim', 'URL': 'https://food.jumia.dz/restaurant/a9jw/la-cantine-dely-brahim', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Cuisine Méditerranéenne'}
+{'NAME': 'Docteur Chocolat', 'URL': 'https://food.jumia.dz/restaurant/a3jm/docteur-chocolat', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Chocolat Crêpes Gaufres Sucré - Desserts'}
+{'NAME': 'Le Petit Vendôme', 'URL': 'https://food.jumia.dz/restaurant/a1gh/le-petit-vendome', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Cuisine Méditerranéenne'}
+{'NAME': 'Woodpecker Draria', 'URL': 'https://food.jumia.dz/restaurant/a7ea/woodpecker', 'RATING': '3.9', 'PRICE': 
+'$$', 'CUISINE': 'Grillades Pizza'}
+{'NAME': "Cook's Pizzeria", 'URL': 'https://food.jumia.dz/restaurant/a3zj/cook-s-pizzeria', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Pizza Cuisine Méditerranéenne'}
+{'NAME': 'Pause Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a9cj/pause-restaurant', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Pizza Cuisine Méditerranéenne'}
+{'NAME': 'Kiddy Food', 'URL': 'https://food.jumia.dz/restaurant/a7tq/kiddy-food', 'RATING': '4.6', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Salades Sandwichs Tacos'}
+{'NAME': 'Green snack', 'URL': 'https://food.jumia.dz/restaurant/a8ce/green-snack', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': 'Leonard Ben Aknoun', 'URL': 'https://food.jumia.dz/restaurant/a6gx/leonard-ben-aknoun', 'RATING': '4.1', 
+'PRICE': '$$', 'CUISINE': 'Burger Grillades Pizza Salades Cuisine Méditerranéenne'}
+{'NAME': 'CCCP', 'URL': 'https://food.jumia.dz/restaurant/a2aj/cccp', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': ''}
+{'NAME': 'Woodpecker Barthes Hydra', 'URL': 'https://food.jumia.dz/restaurant/a0wp/woodpecker-barthes-hydra', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': "Billy's", 'URL': 'https://food.jumia.dz/restaurant/a0kw/billy-s', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Pizza Burger'}
+{'NAME': "L'Espéranto", 'URL': 'https://food.jumia.dz/restaurant/a6fx/l-esperanto', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Burger Salades Sandwichs Pizza'}
+{'NAME': 'Burger Station', 'URL': 'https://food.jumia.dz/restaurant/a1rt/burger-station', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Burger Republic', 'URL': 'https://food.jumia.dz/restaurant/a3so/burger-republic', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Marhaba Burgers & Sandwichs', 'URL': 'https://food.jumia.dz/restaurant/a7ri/marhaba-sandwichs', 'RATING': '4.5', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs'}
+{'NAME': "Elo'Tacos", 'URL': 'https://food.jumia.dz/restaurant/a2mp/elo-tacos', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Tacos'}
+{'NAME': 'Rocket Sandwichs', 'URL': 'https://food.jumia.dz/restaurant/a0xv/rocket-sandwichs', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Pizza Sandwichs'}
+{'NAME': 'Good Vibes', 'URL': 'https://food.jumia.dz/restaurant/a9pv/good-vibes', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Burger Tacos Pizza'}
+{'NAME': 'Diwan restaurant', 'URL': 'https://food.jumia.dz/restaurant/a9cd/diwan-restaurant', 'RATING': '5', 'PRICE': '$$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Pizza Point', 'URL': 'https://food.jumia.dz/restaurant/a0if/pizza-point', 'RATING': '4.3', 'PRICE': '$', 
+'CUISINE': 'Tacos Pizza'}
+{'NAME': 'Savannah Pizzas', 'URL': 'https://food.jumia.dz/restaurant/a8yn/savannah-pizzas', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'B Burger', 'URL': 'https://food.jumia.dz/restaurant/a1lm/b-burger', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Sandwichs Burger'}
+{'NAME': 'Family Food', 'URL': 'https://food.jumia.dz/restaurant/a9id/family-food', 'RATING': '4.1', 'PRICE': '$', 
+'CUISINE': 'Burger Kebab Libanais Sandwichs Tacos Pizza'}
+{'NAME': 'Waffleshot', 'URL': 'https://food.jumia.dz/restaurant/a0qq/waffleshot', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Glace Libanais Sucré - Desserts'}
+{'NAME': 'Rostom', 'URL': 'https://food.jumia.dz/restaurant/a3pp/rostom', 'RATING': '3', 'PRICE': '$', 'CUISINE': 'Burger Salades Sandwichs Tacos'}
+{'NAME': 'Oui Oui Döner Cheraga', 'URL': 'https://food.jumia.dz/restaurant/a3gz/oui-oui-doner-cheraga', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Kebab'}
+{'NAME': 'Laser Food- by Laser Strike', 'URL': 'https://food.jumia.dz/restaurant/a6co/laser-strike', 'RATING': '3.8', 'PRICE': '$$', 'CUISINE': 'Libanais Burger'}
+{'NAME': 'Wok Street', 'URL': 'https://food.jumia.dz/restaurant/a3sc/wok-street', 'RATING': '4.5', 'PRICE': '$$$', 
+'CUISINE': 'Sushi Cuisine Asiatique'}
+{'NAME': 'La Cité Asiatique', 'URL': 'https://food.jumia.dz/restaurant/a9en/la-cite-asiatique', 'RATING': '4.3', 'PRICE': '$$$', 'CUISINE': 'Sushi Cuisine Asiatique'}
+{'NAME': 'Central Up', 'URL': 'https://food.jumia.dz/restaurant/a6ed/central-up', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Burger Pizza Sandwichs Tacos'}
+{'NAME': 'Abracadabra Döner Kebab', 'URL': 'https://food.jumia.dz/restaurant/a6jb/abracadabra-kabab', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Kebab'}
+{'NAME': 'La Patisserie by Lucas Castello- Hydra', 'URL': 'https://food.jumia.dz/restaurant/a3gw/la-patisserie-by-lucas-castello-hydra', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Pâtisserie et Boulangerie Sucré - Desserts'}      
+{'NAME': 'Restaurant Divan', 'URL': 'https://food.jumia.dz/restaurant/a1iy/restaurant-divan', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': 'Fresh Cook', 'URL': 'https://food.jumia.dz/restaurant/a1xh/fresh-cook', 'RATING': '2.7', 'PRICE': '$', 'CUISINE': 'Salades Healthy Food'}
+{'NAME': 'The Grill', 'URL': 'https://food.jumia.dz/restaurant/a9hy/the-grill', 'RATING': '5', 'PRICE': '$', 'CUISINE': 'Salades Sandwichs Tacos Burger'}
+{'NAME': 'Sushi Ball', 'URL': 'https://food.jumia.dz/restaurant/a7lg/sushi-ball', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Cuisine Asiatique'}
+{'NAME': 'Chic Chic Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a5ap/chic-chic-restaurant', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Grillades Pizza Salades Sandwichs Cuisine Méditerranéenne'}
+{'NAME': "L'Avenue", 'URL': 'https://food.jumia.dz/restaurant/a2mk/l-avenue', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Cuisine Française Poissons Cuisine Méditerranéenne'}
+{'NAME': 'La Cale', 'URL': 'https://food.jumia.dz/restaurant/a0va/la-cale', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Poissons'}
+{'NAME': 'Scottish', 'URL': 'https://food.jumia.dz/restaurant/a6dh/scottish', 'RATING': '4.5', 'PRICE': '$$', 'CUISINE': 'Burger Grillades pâtes Salades Cuisine Méditerranéenne'}
+{'NAME': 'Papadum Indian Food', 'URL': 'https://food.jumia.dz/restaurant/a9nn/papadum-indian-food-vendor', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'Restaurant Poisson Warsnis', 'URL': 'https://food.jumia.dz/restaurant/a2hb/restaurant-poisson-warsnis', 'RATING': '4.6', 'PRICE': '$$', 'CUISINE': 'Paella Salades Poissons'}
+{'NAME': 'Le Coq', 'URL': 'https://food.jumia.dz/restaurant/a1nu/le-coq', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger Salades Tacos Sandwichs'}
+{'NAME': 'American Burger', 'URL': 'https://food.jumia.dz/restaurant/a9sl/american-burger', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Sandwichs Burger'}
+{'NAME': 'Le Tajine', 'URL': 'https://food.jumia.dz/restaurant/a4xt/le-tajine', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': 'White Dream restaurant', 'URL': 'https://food.jumia.dz/restaurant/a6zk/white-dream-restaurant', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Cuisine Méditerranéenne'}
+{'NAME': 'Fast Pasta', 'URL': 'https://food.jumia.dz/restaurant/a1lt/fast-pasta', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Healthy Food pâtes Salades Cuisine Méditerranéenne'}
+{'NAME': 'Chicken Chicken', 'URL': 'https://food.jumia.dz/restaurant/a1hg/chicken-chicken', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Fried Chicken'}
+{'NAME': 'Diwan El Bacha', 'URL': 'https://food.jumia.dz/restaurant/a4lm/diwan-el-bacha', 'RATING': '3.6', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': "Lulli's", 'URL': 'https://food.jumia.dz/restaurant/a6ky/lulli-s', 'RATING': '4.5', 'PRICE': '$$', 'CUISINE': 'Burger Cuisine Méditerranéenne Fried Chicken'}
+{'NAME': 'Cooks Traditionnel', 'URL': 'https://food.jumia.dz/restaurant/a5vc/cooks-traditionnel', 'RATING': '3.9', 
+'PRICE': '$$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': 'Hotspot restaurant', 'URL': 'https://food.jumia.dz/restaurant/a6pr/hotspot-restaurant', 'RATING': '4.5', 
+'PRICE': '$$', 'CUISINE': 'Fried Chicken'}
+{'NAME': 'House Of Burgers', 'URL': 'https://food.jumia.dz/restaurant/a6iq/house-of-burgers-hydra', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': "Pizza Time Val d'Hydra", 'URL': 'https://food.jumia.dz/restaurant/a9hs/pizza-time-val-d-hydra', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Funky Au Feu de Bois', 'URL': 'https://food.jumia.dz/restaurant/a7hd/funky-au-feu-de-bois', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Tacos World', 'URL': 'https://food.jumia.dz/restaurant/a5dw/tacos-world', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Tacos'}
+{'NAME': 'Arizona', 'URL': 'https://food.jumia.dz/restaurant/a0qa/arizona', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Cuisine Méditerranéenne'}
+{'NAME': 'Pizza Nostra', 'URL': 'https://food.jumia.dz/restaurant/a1kk/pizza-nostra-draria', 'RATING': '5', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Wood Chicken', 'URL': 'https://food.jumia.dz/restaurant/a7sg/wood-chicken', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs Pizza'}
+{'NAME': 'Dziri Grill', 'URL': 'https://food.jumia.dz/restaurant/a0eg/dziri-grill', 'RATING': '3.9', 'PRICE': '$', 
+'CUISINE': 'Grillades Paella Pizza'}
+{'NAME': 'House Of Burgers', 'URL': 'https://food.jumia.dz/restaurant/a6ug/house-of-burgers-bab-zouar', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Snappy', 'URL': 'https://food.jumia.dz/restaurant/a9le/snappy', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Burger Pizza Tacos'}
+{'NAME': 'Original Tacos', 'URL': 'https://food.jumia.dz/restaurant/a3qm/original-tacos', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Tacos'}
+{'NAME': 'Naan & Tacos', 'URL': 'https://food.jumia.dz/restaurant/a8dv/naan', 'RATING': '4.4', 'PRICE': '$$', 'CUISINE': 'Naan Tacos Sandwichs'}
+{'NAME': 'La Casa Del Burger', 'URL': 'https://food.jumia.dz/restaurant/a9bv/la-casa-del-burger', 'RATING': '4.2', 
+'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': "Fratello's by Pizza Show", 'URL': 'https://food.jumia.dz/restaurant/a2eh/fratello-s-by-pizza-show', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Sandwichs Pizza'}
+{'NAME': 'Shakes Burgers & Grill', 'URL': 'https://food.jumia.dz/restaurant/a2zq/shakes-burgers', 'RATING': '4.5', 
+'PRICE': '$$', 'CUISINE': 'Cuisine Méditerranéenne Burger'}
+{'NAME': 'Sultan Express', 'URL': 'https://food.jumia.dz/restaurant/a0kv/sultan-alger-centre', 'RATING': '4.3', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale Grillades Libanais Pizza Salades Sandwichs Tacos Kebab'}
+{'NAME': 'Brother Pizza&Tacos', 'URL': 'https://food.jumia.dz/restaurant/a1vh/brother-ts', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Sandwichs Tacos'}
+{'NAME': 'Eaten Out Pizza', 'URL': 'https://food.jumia.dz/restaurant/a3bx/eaten-out-pizza', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Bocadillos', 'URL': 'https://food.jumia.dz/restaurant/a1zk/bocadillos', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Burger Salades Sandwichs'}
+{'NAME': 'Rest House', 'URL': 'https://food.jumia.dz/restaurant/a5no/rest-house', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': 'Tacobab', 'URL': 'https://food.jumia.dz/restaurant/a3af/taco', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 
+'Tacos'}
+{'NAME': "Pizzeria l'Étoile", 'URL': 'https://food.jumia.dz/restaurant/a4to/pizzeria-l-etoile', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Sandwichs Pizza'}
+{'NAME': 'Au Feu de Bois', 'URL': 'https://food.jumia.dz/restaurant/a8gm/feu-de-bois', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'La Maison du Tacos', 'URL': 'https://food.jumia.dz/restaurant/a5rt/la-maison-du-tacos', 'RATING': '4.6', 
+'PRICE': '$', 'CUISINE': 'Tacos'}
+{'NAME': 'Arrabiata', 'URL': 'https://food.jumia.dz/restaurant/a9sd/arabiata', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Salades Tacos Sandwichs'}
+{'NAME': 'La Rôtisserie', 'URL': 'https://food.jumia.dz/restaurant/a4bf/la-rotisserie', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Grillades Sandwichs Cuisine Méditerranéenne'}
+{'NAME': 'BUTCHER Volcanic H-Y', 'URL': 'https://food.jumia.dz/restaurant/a9xk/butcher-volcanic-h-y', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Le Monde', 'URL': 'https://food.jumia.dz/restaurant/a3jr/le-monde', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Burger Healthy Food Pizza Salades Cuisine Méditerranéenne'}
+{'NAME': 'Abracadabra Kebab kouba', 'URL': 'https://food.jumia.dz/restaurant/a0et/abracadabra-kebab-kouba', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Kebab'}
+{'NAME': 'Salad Box', 'URL': 'https://food.jumia.dz/restaurant/a0sd/salad-box', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Healthy Food'}
+{'NAME': 'Cooks Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a1at/cooks-restaurant', 'RATING': '2', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Cuisine Méditerranéenne'}
+{'NAME': 'Le Bistrot', 'URL': 'https://food.jumia.dz/restaurant/a1ea/le-bistrot', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Cuisine Algérienne Grillades Poissons Salades Cuisine Méditerranéenne'}
+{'NAME': 'The Wall', 'URL': 'https://food.jumia.dz/restaurant/a9on/the-wall', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Burger Salades Sandwichs'}
+{'NAME': 'Casse Croûte Babez', 'URL': 'https://food.jumia.dz/restaurant/a7lh/casse-croute-babez', 'RATING': '4.1', 
+'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': "Poppy's", 'URL': 'https://food.jumia.dz/restaurant/a5ia/poppy-s', 'RATING': '3.6', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Ali Baba', 'URL': 'https://food.jumia.dz/restaurant/a8iv/ali-baba-restaurant', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Burger Chawarma Grillades Sandwichs'}
+{'NAME': 'Speed Food', 'URL': 'https://food.jumia.dz/restaurant/a5ue/speed-food', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Salades Sandwichs Tacos Burger'}
+{'NAME': 'Corner by Sultan', 'URL': 'https://food.jumia.dz/restaurant/a0cc/corner-by-sultan', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale Grillades Libanais Salades Sandwichs Tacos Pizza'}
+{'NAME': 'Leoncino', 'URL': 'https://food.jumia.dz/restaurant/a5su/leoncino', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Al Forno', 'URL': 'https://food.jumia.dz/restaurant/a4xp/al-forno-vendor-1', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Pizzeria Il Fornello', 'URL': 'https://food.jumia.dz/restaurant/a0ts/pizzeria-il-fornello', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs Tacos Pizza'}
+{'NAME': 'Tacos+', 'URL': 'https://food.jumia.dz/restaurant/a1fd/o-tacosplus', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': 'El Baih', 'URL': 'https://food.jumia.dz/restaurant/a3ab/el-baih', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale Kebab'}
+{'NAME': 'Mc Roux', 'URL': 'https://food.jumia.dz/restaurant/a7mc/mc-roux', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Pizza'}
+{'NAME': "Dawg's", 'URL': 'https://food.jumia.dz/restaurant/a4za/dawgs', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 
+'Burger'}
+{'NAME': 'Le Rodizio Pizzeria Brésilienne', 'URL': 'https://food.jumia.dz/restaurant/a5mf/le-rodizio', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'The Joker Food', 'URL': 'https://food.jumia.dz/restaurant/a6pv/the-joker-fodd', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': 'Maracas', 'URL': 'https://food.jumia.dz/restaurant/a9np/maracas', 'RATING': '4.2', 'PRICE': '$', 'CUISINE': 'Mexicain Tacos'}
+{'NAME': 'Mandala', 'URL': 'https://food.jumia.dz/restaurant/a9xa/mandala', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Tacos Pizza'}
+{'NAME': 'El Maida', 'URL': 'https://food.jumia.dz/restaurant/a9bl/el-maida', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': "Chick'n Beef", 'URL': 'https://food.jumia.dz/restaurant/a7zj/chick-n-beef', 'RATING': '4.6', 'PRICE': '$', 'CUISINE': 'Burger Tacos Sandwichs'}
+{'NAME': 'California Burger', 'URL': 'https://food.jumia.dz/restaurant/a6zm/california-burger', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': 'Appolino', 'URL': 'https://food.jumia.dz/restaurant/a4iv/appolino', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Burger Pizza'}
+{'NAME': 'Chapati Tunisien', 'URL': 'https://food.jumia.dz/restaurant/a1im/chapati-tunisien', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Le Gâté', 'URL': 'https://food.jumia.dz/restaurant/a8nn/le-gate', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': 'Dady Pizza', 'URL': 'https://food.jumia.dz/restaurant/a8fh/dady-pizza', 'RATING': '5', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs Tacos Pizza'}
+{'NAME': 'Zahrat Dimachq', 'URL': 'https://food.jumia.dz/restaurant/a4ny/zahrat-dimachq', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': "Fren'cheese", 'URL': 'https://food.jumia.dz/restaurant/a9an/fren-cheese', 'RATING': '4.2', 'PRICE': '$', 
+'CUISINE': 'Salades Sandwichs Tacos'}
+{'NAME': 'The Crossroads', 'URL': 'https://food.jumia.dz/restaurant/a8ws/the-crossroads', 'RATING': '3.5', 'PRICE': '$', 'CUISINE': 'Burger Tacos Pizza'}
+{'NAME': 'Dos Dos Pizza & Food', 'URL': 'https://food.jumia.dz/restaurant/a6al/dos-dos-pizza-food', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Burger Tacos Pizza'}
+{'NAME': 'Casa Bianca', 'URL': 'https://food.jumia.dz/restaurant/a6rp/casa-bianca', 'RATING': '4', 'PRICE': '$$', 'CUISINE': 'Burger Pizza Sandwichs'}
+{'NAME': 'Lamassat', 'URL': 'https://food.jumia.dz/restaurant/a6fv/lamassat', 'RATING': '3.6', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Classicco', 'URL': 'https://food.jumia.dz/restaurant/a9xg/classicco', 'RATING': '4.7', 'PRICE': '$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Tchikos Pizza', 'URL': 'https://food.jumia.dz/restaurant/a0nc/tchikos-pizza', 'RATING': '3.7', 'PRICE': '$$', 'CUISINE': 'Burger Sandwichs Tacos Pizza'}
+{'NAME': 'Oui Oui Döner Dely Ibrahim', 'URL': 'https://food.jumia.dz/restaurant/a3wh/oui-oui-doner-dely-ibrahim', 'RATING': '4.2', 'PRICE': '$$', 'CUISINE': 'Kebab'}
+{'NAME': 'Walibi', 'URL': 'https://food.jumia.dz/restaurant/a5ae/walibi', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Pizza'}
+{'NAME': 'Tacos Dey', 'URL': 'https://food.jumia.dz/restaurant/a2ie/tacos-dey', 'RATING': '5', 'PRICE': '$', 'CUISINE': 'Burger Sandwichs Tacos'}
+{'NAME': "O'Churros", 'URL': 'https://food.jumia.dz/restaurant/a8lq/churros', 'RATING': '4.4', 'PRICE': '$', 'CUISINE': 'Chocolat Sucré - Desserts'}
+{'NAME': 'Snack à Gogo', 'URL': 'https://food.jumia.dz/restaurant/a3nc/snack-a-gogo-vendor', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Burger Libanais Pizza Sandwichs'}
+{'NAME': 'Brooklyn', 'URL': 'https://food.jumia.dz/restaurant/a2lj/brooklyn', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Burger Salades Tacos Pizza'}
+{'NAME': 'Ramo Pizza', 'URL': 'https://food.jumia.dz/restaurant/a7nf/ramos-pizza', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Pizza'}
+{'NAME': 'Leonard City Center', 'URL': 'https://food.jumia.dz/restaurant/a9qg/leonard-city-center', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Burger Grillades Pizza Salades Cuisine Méditerranéenne'}
+{'NAME': 'Makloub Dely Brahim', 'URL': 'https://food.jumia.dz/restaurant/a9dh/mekloub-dely-brahim', 'RATING': '4.3', 'PRICE': '$', 'CUISINE': 'Pizza Sandwichs'}
+{'NAME': 'Fresh Burger', 'URL': 'https://food.jumia.dz/restaurant/a0ow/fresh-burger-1', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Cuisine Méditerranéenne Pizza Sandwichs Burger'}
+{'NAME': 'Mio Mondo', 'URL': 'https://food.jumia.dz/restaurant/a1gr/mio-mondo', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Burger Chocolat Tacos'}
+{'NAME': 'Food Truck', 'URL': 'https://food.jumia.dz/restaurant/a8qw/food-truck', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Salades Sandwichs Tacos Burger'}
+{'NAME': 'Le Grenier', 'URL': 'https://food.jumia.dz/restaurant/a2om/le-grenier', 'RATING': '4.1', 'PRICE': '$', 'CUISINE': 'Kebab Sandwichs Pizza'}
+{'NAME': 'Maza snack', 'URL': 'https://food.jumia.dz/restaurant/a6lc/maza-snack', 'RATING': '4.1', 'PRICE': '$$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Del Tacos', 'URL': 'https://food.jumia.dz/restaurant/a7nx/del-tacos', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Tacos'}
+extracting values error  'NoneType' object has no attribute 'split'
+{'NAME': 'De Legna Pizzas', 'URL': 'https://food.jumia.dz/restaurant/a5dd/de-legna-pizzas', 'RATING': '0', 'PRICE': '', 'CUISINE': ''}
+{'NAME': 'Taghit', 'URL': 'https://food.jumia.dz/restaurant/a6tm/taghit', 'RATING': '3.5', 'PRICE': '$$$', 'CUISINE': 'Cuisine Algérienne'}
+{'NAME': 'Double U', 'URL': 'https://food.jumia.dz/restaurant/a5is/double-u', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Café Glace Libanais Chocolat'}
+{'NAME': 'Erriane Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a8oc/erriane-restaurant', 'RATING': '3', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Pizza'}
+{'NAME': 'Fast Provence', 'URL': 'https://food.jumia.dz/restaurant/a0ah/fast-provence', 'RATING': '2.3', 'PRICE': '$', 'CUISINE': 'Grillades Pizza Salades Cuisine Méditerranéenne'}
+{'NAME': 'Gum Gum Pizza', 'URL': 'https://food.jumia.dz/restaurant/a6th/gum-gum-pizza', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Salades Pizza'}
+{'NAME': 'Holiday Inn Restaurant', 'URL': 'https://food.jumia.dz/restaurant/a9ed/holiday-inn', 'RATING': '3.1', 'PRICE': '$', 'CUISINE': 'Cuisine Orientale Pizza'}
+{'NAME': 'La Pizza', 'URL': 'https://food.jumia.dz/restaurant/a3hn/la-pizza', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Tacos Pizza'}
+{'NAME': 'Le Délice', 'URL': 'https://food.jumia.dz/restaurant/a0oz/le-delice', 'RATING': '3.4', 'PRICE': '$', 'CUISINE': 'Cuisine Algérienne Pizza Salades Sandwichs Grillades'}
+{'NAME': 'Mazaya Echam', 'URL': 'https://food.jumia.dz/restaurant/a9rt/mazaya-echam', 'RATING': '3.3', 'PRICE': '$', 'CUISINE': 'Sandwichs Cuisine Orientale'}
+{'NAME': 'O Circuit', 'URL': 'https://food.jumia.dz/restaurant/a3ff/o-circuit', 'RATING': '4', 'PRICE': '$', 'CUISINE': 'Sandwichs Tacos Burger'}
+{'NAME': "O'Seven", 'URL': 'https://food.jumia.dz/restaurant/a5qk/o-sev7en', 'RATING': '3.6', 'PRICE': '$', 'CUISINE': ''}
+{'NAME': "Pâtisserie l'Aquarium", 'URL': 'https://food.jumia.dz/restaurant/a0jp/patisserie-l-aquarium', 'RATING': '3.8', 'PRICE': '$', 'CUISINE': 'Pâtisserie et Boulangerie'}
+{'NAME': 'Taste Of India', 'URL': 'https://food.jumia.dz/restaurant/a4st/taste-of-india-vendor', 'RATING': '3.4', 'PRICE': '$$$', 'CUISINE': 'Cuisine Indienne'}
+{'NAME': 'Twin Pizza', 'URL': 'https://food.jumia.dz/restaurant/a3yy/twin-pizza', 'RATING': '3.5', 'PRICE': '$$', 'CUISINE': 'Sandwichs Pizza'}
+{'NAME': 'Virtual Pizza- by Virtual Game', 'URL': 'https://food.jumia.dz/restaurant/a7vn/virtual-pizza-by-virtual-game', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Le Mirage', 'URL': 'https://food.jumia.dz/restaurant/a1em/le-mirage', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': '16 éme arrondissement', 'URL': 'https://food.jumia.dz/restaurant/a8sa/16-eme-arrondissement', 'RATING': '3.4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Boss burger', 'URL': 'https://food.jumia.dz/restaurant/a8zr/boss-burger', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': 'Broccoli Pizza and Pasta', 'URL': 'https://food.jumia.dz/restaurant/a0kq/broccoli-pizza-and-pasta', 'RATING': '3.9', 'PRICE': '$', 'CUISINE': 'Salades Pizza'}
+{'NAME': 'Gusto Pizza', 'URL': 'https://food.jumia.dz/restaurant/a0sx/gusto', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Hélios Snack', 'URL': 'https://food.jumia.dz/restaurant/a6mc/helios-chili-food', 'RATING': '3.5', 'PRICE': '$', 'CUISINE': 'Burger Pizza'}
+{'NAME': 'Pizzeria le four', 'URL': 'https://food.jumia.dz/restaurant/a2uh/pizzeria-le-four', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Showcase', 'URL': 'https://food.jumia.dz/restaurant/a9mp/showcase', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Burger'}
+{'NAME': 'Uphoria', 'URL': 'https://food.jumia.dz/restaurant/a5hj/uphoria', 'RATING': '3.5', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Woody Grill', 'URL': 'https://food.jumia.dz/restaurant/a3mj/woody-grill', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Kebab Grillades'}
+{'NAME': 'Le Voutain', 'URL': 'https://food.jumia.dz/restaurant/a7qs/le-voutain', 'RATING': '0', 'PRICE': '$$', 'CUISINE': 'Cuisine Méditerranéenne'}
+{'NAME': 'Al Forno', 'URL': 'https://food.jumia.dz/restaurant/a4te/al-forno-vendor', 'RATING': '4', 'PRICE': '$$', 
+'CUISINE': 'Pizza'}
+{'NAME': 'Saha Oua Djawda', 'URL': 'https://food.jumia.dz/restaurant/a5kr/saha-oua-djawda', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Healthy Food'}
+{'NAME': 'Loft', 'URL': 'https://food.jumia.dz/restaurant/a3uq/le-loft', 'RATING': '3.6', 'PRICE': '$$', 'CUISINE': 'Libanais Cuisine Algérienne Grillades Pizza Salades'}
+{'NAME': 'Big Bag', 'URL': 'https://food.jumia.dz/restaurant/a0qp/big-bagnew', 'RATING': '3.7', 'PRICE': '$$', 'CUISINE': 'Sandwichs'}
+{'NAME': 'Taxi Pizza', 'URL': 'https://food.jumia.dz/restaurant/a9mz/taxi-pizza', 'RATING': '3.4', 'PRICE': '$$', 'CUISINE': 'Pizza'}
+{'NAME': 'Woodpecker Bouzareah', 'URL': 'https://food.jumia.dz/restaurant/a0em/woodpecker-bouzareah', 'RATING': '4.5', 'PRICE': '$', 'CUISINE': 'Pizza'}
+{'NAME': 'Turcomania', 'URL': 'https://food.jumia.dz/restaurant/a1ku/turcomania', 'RATING': '3.6', 'PRICE': '$$', 'CUISINE': 'Cuisine Orientale'}
+{'NAME': 'Home Burger', 'URL': 'https://food.jumia.dz/restaurant/a9gs/home-burger', 'RATING': '0', 'PRICE': '$', 'CUISINE': 'Burger'}
+{'NAME': "L'Aparté Fait Maison", 'URL': 'https://food.jumia.dz/restaurant/a0yr/l-aparte-fait-maison', 'RATING': '3.9', 'PRICE': '$$', 'CUISINE': 'Cuisine Algérienne Cuisine Traditionnelle'}
+{'NAME': 'Kiosque Pizza', 'URL': 'https://food.jumia.dz/restaurant/a9di/kiosque-pizza', 'RATING': '3.7', 'PRICE': '$', 'CUISINE': 'Pizza Sandwichs Burger'}
+{'NAME': 'Hellofood Test Restaurant 2', 'URL': 'https://food.jumia.dz/restaurant/a8cp/hellofood-test-restaurant-2', 'RATING': '0', 'PRICE': '$', 'CUISINE': ''}
+2021-05-01 01:17:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-05-01 01:17:03 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:56555/session/fc8f5bc63cc7addfa53df2971293dfa7 {}
+2021-05-01 01:17:03 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56555 "DELETE /session/fc8f5bc63cc7addfa53df2971293dfa7 HTTP/1.1" 200 14
+2021-05-01 01:17:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:05 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/response_bytes': 264247,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 4.514971,
+ 'finish_reason': 'finished',
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2021, 5, 1, 0, 16, 58, 905029)}
+2021-05-01 01:17:05 [scrapy.core.engine] INFO: Spider closed (finished)
+PS E:\prodjet\Works\jobs_test\invisible\jumia_scraping_from_scratch> scrapy crawl integratedspider
+2021-05-01 01:17:23 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: jumia_scraping_from_scratch)
+2021-05-01 01:17:23 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, 
+w3lib 1.22.0, Twisted 21.2.0, Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Windows-10-10.0.18362-SP0
+2021-05-01 01:17:23 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-05-01 01:17:23 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'jumia_scraping_from_scratch',
+ 'DOWNLOAD_DELAY': 5,
+ 'NEWSPIDER_MODULE': 'jumia_scraping_from_scratch.spiders',
+ 'SPIDER_MODULES': ['jumia_scraping_from_scratch.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1     like Mac OS X) '
+               'AppleWebKit/601.1.46 (KHTML, like Gecko)     Version/9.0 '
+               'Mobile/13B137 Safari/601.1'}
+2021-05-01 01:17:23 [scrapy.extensions.telnet] INFO: Telnet Password: 773d45331e7cad58
+2021-05-01 01:17:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-05-01 01:17:24 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:56609/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+2021-05-01 01:17:24 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 127.0.0.1:56609
+
+DevTools listening on ws://127.0.0.1:56615/devtools/browser/58f5d56c-4663-4b09-9eae-d3478c5c564a
+2021-05-01 01:17:25 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56609 "POST /session HTTP/1.1" 200 751
+2021-05-01 01:17:25 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy_selenium.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-05-01 01:17:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'jumia_scraping_from_scratch.middlewares.JumiaScrapingFromScratchSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-05-01 01:17:25 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2021-05-01 01:17:25 [scrapy.core.engine] INFO: Spider opened
+2021-05-01 01:17:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-05-01 01:17:25 [integratedspider] INFO: Spider opened: integratedspider
+2021-05-01 01:17:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+proxy:  188.166.245.147:8050
+2021-05-01 01:17:25 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:56609/session/7185d42bfe2110d7c32da6532c9dcdde/url {"url": "https://food.jumia.dz/restaurants"}
+2021-05-01 01:17:30 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56609 "POST /session/7185d42bfe2110d7c32da6532c9dcdde/url HTTP/1.1" 200 14
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:56609/session/7185d42bfe2110d7c32da6532c9dcdde/screenshot {}
+2021-05-01 01:17:30 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56609 "GET /session/7185d42bfe2110d7c32da6532c9dcdde/screenshot HTTP/1.1" 200 55660
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:56609/session/7185d42bfe2110d7c32da6532c9dcdde/source {}
+2021-05-01 01:17:30 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56609 "GET /session/7185d42bfe2110d7c32da6532c9dcdde/source HTTP/1.1" 200 69158
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:56609/session/7185d42bfe2110d7c32da6532c9dcdde/url {}
+2021-05-01 01:17:30 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56609 "GET /session/7185d42bfe2110d7c32da6532c9dcdde/url HTTP/1.1" 200 45
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://food.jumia.dz/restaurants> (referer: None)
+2021-05-01 01:17:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:56609/session/7185d42bfe2110d7c32da6532c9dcdde {}
+2021-05-01 01:17:30 [urllib3.connectionpool] DEBUG: http://127.0.0.1:56609 "DELETE /session/7185d42bfe2110d7c32da6532c9dcdde HTTP/1.1" 200 14
+2021-05-01 01:17:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2021-05-01 01:17:32 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/response_bytes': 62077,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 5.072852,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 5, 1, 0, 17, 30, 440015),
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2021, 5, 1, 0, 17, 25, 367163)}
+2021-05-01 01:17:32 [scrapy.core.engine] INFO: Spider closed (finished)
+PS E:\prodjet\Works\jobs_test\invisible\jumia_scraping_from_scratch>
