@@ -6,6 +6,7 @@
 from scrapy import signals
 import random
 from random import choice
+import requests
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
 
@@ -53,7 +54,15 @@ class JumiaScrapingFromScratchSpiderMiddleware:
         #start_requests.meta['proxy'] = "https:188.166.245.147:8050"
         proxies = ['188.166.125.206:37956','165.227.173.87:42446','152.179.12.86:3128','34.235.130.251:80','51.91.109.83:80','103.51.103.22:80','188.166.245.147:8050','158.101.114.88:80','149.56.47.132:443','3.141.15.224:3128']
         for r in start_requests:
-            proxy = random.choice(proxies)
+            status = False
+            while not status:
+                try:
+                    proxy = random.choice(proxies)
+                    requests.get('https://www.google.com/')
+                    status = True
+                except:
+                    print('proxy-timeout: ',proxy)
+
             print('proxy: ',proxy)
             r.meta['proxy'] = proxy
             yield r

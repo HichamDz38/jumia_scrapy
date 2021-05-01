@@ -99,7 +99,7 @@ SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver')
 SELENIUM_DRIVER_ARGUMENTS=['--headless']  
   
 DOWNLOADER_MIDDLEWARES = {
-     #'scrapy_selenium.SeleniumMiddleware': 800,
+     'scrapy_selenium.SeleniumMiddleware': 800,
      'jumia_scraping_from_scratch.middlewares.RotateUserAgentMiddleware': 110,
      }
 SPIDER_MIDDLEWARES = {

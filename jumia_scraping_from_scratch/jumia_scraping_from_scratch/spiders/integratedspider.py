@@ -2,7 +2,10 @@ import scrapy
 import re
 from scrapy_selenium import SeleniumRequest
 from jumia_scraping_from_scratch.items import *
-
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
 
 class IntegratedspiderSpider(scrapy.Spider):
     name = 'integratedspider'
@@ -10,13 +13,16 @@ class IntegratedspiderSpider(scrapy.Spider):
     def start_requests(self):
         yield SeleniumRequest(
             url = "https://food.jumia.dz/restaurants",
-            wait_time = 3,
-            screenshot = False,
+            wait_time = 180,
+            screenshot = True,
             callback = self.parse,
-            dont_filter = True
+            dont_filter = True,
+            wait_until=EC.presence_of_element_located((By.XPATH, '//*[@id="restaurant-list"]/section[2]/div[1]/div/div/article[1]/a'))
         )
 
     def parse(self, response):
+        with open('image.png', 'wb') as image_file:
+            image_file.write(response.meta['screenshot'])
         restaurants = response.xpath('//*[@id="restaurant-list"]/section[2]/div/div/article')
         for restaurant in restaurants:
             name = ''
